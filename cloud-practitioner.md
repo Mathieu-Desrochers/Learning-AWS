@@ -29,18 +29,18 @@ IAM Access Advisor (per user), Services and last use
 
 ## EC2 - Elastic Cloud Compute
 Better safe, Billing Dashboard, Create budget with email alert  
-CPU, Memory, Storage (network/hardware), Network  
+CPU, Memory, Storage (network / hardware), Network  
 AMI, Linux, Windows, Mac OS  
 EC2 User Data, Bootstrap script as root on first boot  
 Key Pair for SSH access  
 Root volume has Delete on termination Yes  
-Private IP address, Can have public that changes on stop/start  
+Private IP address, Can have public that changes on stop / start  
 Instance state stopped no billing, terminate to delete  
 Instance types, class generation . size, m5.2xlarge  
 General Purpose (t), Compute Optimized (C), Memory Optimized (R), Storage Optimized  
-Security groups, firewall with allow rules only, inbound and outbound  
+Security groups, Firewall with allow rules only, Inbound and outbound  
 Protocol, IP Range, Port Range  
 Multiple EC2 instances to multiple security groups  
 Have one for SSH assigned to all EC2  
-Security groups can allow other security groups, instead IP  
+Security groups can allow other security groups, instead of IP  
 21 FTP, 22 SSH SFTP, 80 HTTP, 443 HTTPS, 3389 RDP   
