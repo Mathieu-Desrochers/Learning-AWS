@@ -43,7 +43,7 @@ Protocol, IP Range, Port Range
 Multiple EC2 instances to multiple security groups  
 Have one for SSH assigned to all EC2  
 Security groups can allow other security groups, instead of IP  
-21 FTP, 22 SSH SFTP, 80 HTTP, 443 HTTPS, 3389 RDP 
+21 FTP, 22 SSH SFTP, 80 HTTP, 443 HTTPS, 3389 RDP  
 On demand, Pay per second, Short workload  
 Reserved instances 72%, Commit to attributes (type, region, tenancy, os)  
 1 or 3 years, Upfront no, partial or all, Scope on region or AZ  
