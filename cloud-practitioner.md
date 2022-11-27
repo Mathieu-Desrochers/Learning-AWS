@@ -51,4 +51,4 @@ Saving plans 72%, 1 or 3 years, Commit to amount per hour, Above is on demand
 Spot instances 90%, lose if max price below spot  
 Dedicated Host, Access to physical server, Compliance or server bound licences, Most expensive  
 Dedicated Instances, Instances on hardware not shared with other accounts  
-Capacity Reservation, Garanteed availability in AZ for duration, Pay use or not  
+Capacity Reservation, Guaranteed availability in AZ for duration, Pay use or not  
