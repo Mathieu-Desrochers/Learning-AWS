@@ -45,9 +45,10 @@ Have one for SSH assigned to all EC2
 Security groups can allow other security groups, instead of IP  
 21 FTP, 22 SSH SFTP, 80 HTTP, 443 HTTPS, 3389 RDP  
 On demand, Pay per second, Short workload  
-Reserved instances 72%, 1 or 3 years, Commit to attributes (type, region, tenancy, os)  
+Reserved instances 72%, 1 or 3 years, Commit to instance attributes (type, region, tenancy, os)  
 Convertible allows attributes change  
 Saving plans 72%, 1 or 3 years, Commit to amount per hour, Above is on demand  
 Spot instances 90%, lose if max price below spot  
 Dedicated Host, Access to physical server, Compliance or server bound licences, Most expensive  
 Dedicated Instances, Instances on hardware not shared with other accounts  
+Capacity Reservation, Garanteed availability in AZ for duration, Pay use or not  
