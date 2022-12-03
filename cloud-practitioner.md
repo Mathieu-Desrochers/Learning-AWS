@@ -88,8 +88,8 @@ Scability can handle bigger loads
 Horizontal (in out) more instances, Vertical (up down) bigger instances  
 Elasticity automatic scaling, High availability instances in multiple AZ  
 ELB - Elastic Load Balancer  
-Single point of access, Spread load across downstream instances (target group)  
-Has security group, Health check and instance failure handling, Internet or internal  
+Single point of access, Spread load across downstream instances  
+Has security group, Target group (instances), Health checks and failure handling  
 Application (Layer 7 HTTP/S gRPC), Static URL, HTTP routing, SSL termination  
 Network (Layer 4 TCP UDP), Static IP, High performance  
 Gateway (Layer 3 GENEVE), Filter traffic through 3rd party security applicances  
