@@ -33,7 +33,6 @@ CPU, Memory, Storage (network / hardware), Network
 AMI, Linux, Windows, Mac OS  
 EC2 User Data, Bootstrap script as root on first boot  
 Key Pair for SSH access  
-Root volume has Delete on termination Yes  
 Private IP address, Can have public that changes on stop / start  
 Instance state stopped no billing, terminate to delete  
 Instance types, class generation . size, m5.2xlarge  
@@ -52,3 +51,23 @@ Spot instances 90%, lose if max price below spot
 Dedicated Host, Access to physical server, Compliance or server bound licences, Most expensive  
 Dedicated Instances, Instances on hardware not shared with other accounts  
 Capacity Reservation, Guaranteed availability in AZ for duration, Pay use or not  
+
+## EC2 Instance Storage
+EBS - Elastic Block Storage Volumes  
+Network drive, Can attach to one EC2 Instance, Locked to AZ  
+Capacity in GBs and IOPS, Can be changed, Popular General Purpose SSD (gp2)  
+Delete on Termination attribute (default true for root drives)  
+EBS Snapshots - EBS Volume backup at point in time  
+Create volume from snapshot, Can copy across AZ and regions  
+Archive storage tier (-75%, 24-72h), Recycle bin (1 day to one year)  
+AMI - Amazon Machine Image  
+Base image for EC2 instances, Locked to one region  
+Public, My AMIs, AWS Marketplace, Popular Amazon Linux 2  
+Launch EC2 instance, Install software and configure, Stop instance, Build AMI  
+Stored as snapshot, Deregister AMI to delete  
+EC2 Instance Builder  
+Pipeline with schedule (time or new package version)  
+Recipe with source AMI, Components, Test components  
+Insfrastructure with IAM role and instance type for pipeline run  
+Distribution to regions  
+Uses Build and Test EC2 instances, Creates AMI image  
