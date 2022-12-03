@@ -66,6 +66,11 @@ EFS - Elastic File System
 Managed network file system, Can attach to 100s of EC2 instances, Multi AZ  
 Linux only, Pay per use (no capacity planning)  
 EFS IA - Infrequent Access (-92%), Lifecycle policy (60 days)  
+Amazon FSx - Fully managed 3rd party file systems  
+For Windows Server, SMB protocol, NTFS, AD integration  
+For Lustre, Linux cluster, High performance computing (HPC)  
+100 GB/s, millions IOPS, sub ms latency  
+Both accessed from AWS or on premise  
 
 ## AMI - Amazon Machine Image  
 Base image for EC2 instances, Locked to one region  
