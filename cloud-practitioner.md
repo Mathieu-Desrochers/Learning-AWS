@@ -89,11 +89,11 @@ Horizontal (in out) more instances, Vertical (up down) bigger instances
 Elasticity automatic scaling, High availability instances in multiple AZ  
 ELB - Elastic Load Balancer  
 Single point of access, Spread load across downstream instances  
-Has security group, Target group (instances), Health checks  
+Has security group, Target group (EC2 instances), Health checks  
 Application (Layer 7 HTTP/S gRPC), Static URL, HTTP routing, SSL termination  
 Network (Layer 4 TCP UDP), Static IP, High performance  
 Gateway (Layer 3 GENEVE), Filter traffic through 3rd party security applicances  
 ASG - Automatic Scaling Groups  
 Automatic horizontal scaling based on minimum, desired and maximum capacity  
 Registers instances to ELB, Replaces unhealthy instances  
-Has launch template (EC2 instance configuration), Scaling policy  
+Has launch template (EC2 instances configuration), Scaling policy  
