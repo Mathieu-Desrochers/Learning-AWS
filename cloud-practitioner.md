@@ -28,14 +28,14 @@ IAM Credentials Report (per account)
 IAM Access Advisor (per user), Services and last use  
 
 ## EC2 - Elastic Cloud Compute
-Better safe, Billing Dashboard, Create budget with email alert  
+Be safe, Billing Dashboard, Create budget with email alert  
 CPU, Memory, Storage (network / hardware), Network  
 AMI, Linux, Windows, Mac OS  
 EC2 User Data, Bootstrap script as root on first boot  
 Key Pair for SSH access  
 Private IP address, Can have public that changes on stop / start  
 Instance state stopped no billing, terminate to delete  
-Instance types, class generation . size, m5.2xlarge  
+Instance types, class generation . size, Popular t2.micro  
 General Purpose (t), Compute Optimized (C), Memory Optimized (R), Storage Optimized  
 Security groups, Firewall with allow rules only, Inbound and outbound  
 Protocol, IP Range, Port Range  
