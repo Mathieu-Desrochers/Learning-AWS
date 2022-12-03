@@ -69,7 +69,6 @@ EFS IA - Infrequent Access (-92%), Lifecycle policy (60 days)
 Amazon FSx - Fully managed 3rd party file systems  
 For Windows Server, SMB protocol, NTFS, AD integration  
 For Lustre, Linux cluster, High performance computing (HPC)  
-100 GB/s, millions IOPS, sub ms latency  
 Both accessed from AWS or on premise  
 
 ## AMI - Amazon Machine Image  
