@@ -80,8 +80,8 @@ EC2 Instance Builder
 Pipeline with schedule (time or new package version)  
 Recipe with source AMI, Components, Test components  
 Insfrastructure with IAM role and instance type for pipeline run  
-Distribution to regions  
-Uses Build and Test EC2 instances, Creates AMI image  
+Distribution to multiple regions  
+Uses B=build and test EC2 instances, Creates AMI image  
 
 ## Scability, Elasticity and High Availability
 Scability can handle bigger loads  
@@ -89,7 +89,11 @@ Horizontal (in out) more instances, Vertical (up down) bigger instances
 Elasticity automatic scaling, High availability instances in multiple AZ  
 ELB - Elastic Load Balancer  
 Single point of access, Spread load across downstream instances  
-Has security group, Target group (instances), Health checks and failure handling  
+Has security group, Target group (instances), Health checks  
 Application (Layer 7 HTTP/S gRPC), Static URL, HTTP routing, SSL termination  
 Network (Layer 4 TCP UDP), Static IP, High performance  
 Gateway (Layer 3 GENEVE), Filter traffic through 3rd party security applicances  
+ASG - Automatic Scaling Groups  
+Automatic horizontal scaling based on minimum, desired and maximum capacity  
+Registers instances to ELB, Replaces unhealthy instances  
+Has launch template (EC2 instance configuration), Scaling policy  
