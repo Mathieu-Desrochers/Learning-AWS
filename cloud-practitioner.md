@@ -21,7 +21,7 @@ Inline policy to user directly
 Password policy, Length, Characters, Can change or not, No reuse  
 MFA, Virtual device, Universal 2nd Factor, Hardware Key Fob  
 Access keys for CLI and SDK, Access Key ID + Secret Access Key  
-aws configure to use them  
+Run aws configure to use them  
 Cloud Shell, File persistance, Upload and download  
 Policies assigned to roles assigned to services (EC2, Lambda...)  
 IAM Credentials Report (per account)  
