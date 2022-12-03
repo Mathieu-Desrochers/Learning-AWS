@@ -52,7 +52,7 @@ Dedicated Host, Access to physical server, Compliance or server bound licences, 
 Dedicated Instances, Instances on hardware not shared with other accounts  
 Capacity Reservation, Guaranteed availability in AZ for duration, Pay use or not  
 
-## EC2 Instance Storage
+## EC2 - Instance Storage
 EBS - Elastic Block Storage Volumes  
 Network drive, Can attach to one EC2 instance, Locked to AZ  
 Capacity in GBs and IOPS, Can be changed, Popular General Purpose SSD (gp2)  
