@@ -89,7 +89,7 @@ Horizontal (in out) more instances, Vertical (up down) bigger instances
 Elasticity, Automatic scaling  
 ELB - Elastic Load Balancer, Managed Load Balancer  
 Single point of access, Spread load across downstream instances in multiple AZ  
-Health checks, Instance failure handling 
+Health checks, Instance failure handling  
 Application (Layer 7 HTTP/S gRPC), Static URL, HTTP routing, SSL termination  
 Network (Layer 4 TCP UDP), Static IP, High performance  
 Gateway (Layer 3 GENEVE), Filter traffic through 3rd party security applicances  
