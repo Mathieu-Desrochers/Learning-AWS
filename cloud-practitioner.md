@@ -54,13 +54,20 @@ Capacity Reservation, Guaranteed availability in AZ for duration, Pay use or not
 
 ## EC2 Instance Storage
 EBS - Elastic Block Storage Volumes  
-Network drive, Can attach to one EC2 Instance, Locked to AZ  
+Network drive, Can attach to one EC2 instance, Locked to AZ  
 Capacity in GBs and IOPS, Can be changed, Popular General Purpose SSD (gp2)  
 Delete on Termination attribute (default true for root drives)  
 EBS Snapshots - EBS Volume backup at point in time  
 Create volume from snapshot, Can copy across AZ and regions  
 Archive storage tier (-75%, 24-72h), Recycle bin (1 day to one year)  
-AMI - Amazon Machine Image  
+EC2 Instance Store  
+Physical drive, High Performance, Ephemeral (lost when instance stopped)  
+EFS - Elastic File System  
+Managed network file system, Can attach to 100s of EC2 instances, Multi AZ  
+Linux only, Pay per use (no capacity planning)  
+EFS IA - Infrequent Access (-92%), Lifecycle policy (60 days)  
+
+## AMI - Amazon Machine Image  
 Base image for EC2 instances, Locked to one region  
 Public, My AMIs, AWS Marketplace, Popular Amazon Linux 2  
 Launch EC2 instance, Install software and configure, Stop instance, Build AMI  
