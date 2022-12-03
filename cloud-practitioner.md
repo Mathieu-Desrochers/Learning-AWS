@@ -84,9 +84,8 @@ Distribution to regions
 Uses Build and Test EC2 instances, Creates AMI image  
 
 ## Scability and Elasticity
-Scability, Can handle bigger loads  
-Horizontal (in out) more instances, Vertical (up down) bigger instances  
-Elasticity, Automatic scaling  
+Scability can handle bigger loads, Elasticity automatic scaling  
+Horizontal (in out) more instances, Vertical (up down) bigger instances   
 ELB - Elastic Load Balancer, Managed Load Balancer  
 Single point of access, Spread load across downstream instances in multiple AZ  
 Health checks, Instance failure handling  
