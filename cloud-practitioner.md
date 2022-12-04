@@ -104,3 +104,7 @@ Bucket, Globally unique name, Scoped to region
 Object, Key (my-object.txt), Can simulate folders with prefix (my-folder/my-object.txt)   
 Value (max 5TB, multi-part upload 5GB), Metadata (key/value pairs), VersionID  
 URL (https://my-bucket.s3.ca-central-1.amazonaws.com/my-object.txt), Can be presigned  
+Security with IAM policies, EC2 roles, Bucket policies  
+Allow, s3:GetObject, arn:aws:s3:::my-bucket/\*, Principal (* for public access)  
+Bucket policies can allow cross account access  
+Block all public access, Safety at bucket or account level, Stronger that everything  
