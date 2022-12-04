@@ -107,4 +107,4 @@ URL (https://my-bucket.s3.ca-central-1.amazonaws.com/my-object.txt), Can be pres
 Security with IAM policies, EC2 roles, Bucket policies  
 Allow, s3:GetObject, arn:aws:s3:::my-bucket/\*, Principal (* for public access)  
 Bucket policies can allow cross account access  
-Block all public access, Safety at bucket or account level, Stronger that everything  
+Block all public access, Safety at bucket or account level, Overrules everything  
