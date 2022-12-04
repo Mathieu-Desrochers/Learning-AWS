@@ -101,5 +101,5 @@ Predictive (machine learning to detect pattern, provision in advance)
 ## S3 - Object Storage
 Backups, Static website, Software delivery, Media hosting, Data lakes  
 Bucket, Globally unique name, Scoped to region  
-Object, Key (s3://my-bucket/my-object.txt), Can simulate folders with prefix  
+Object, Key (my-object.txt), Can simulate folders with prefix (my-folder/my-object.txt)   
 Value (max 5TB, multi-part upload above 5GB), Metadata (key/value pairs), VersionID  
