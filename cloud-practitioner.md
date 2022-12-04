@@ -106,7 +106,7 @@ Value (max 5TB, multi-part upload 5GB), Metadata (key/value pairs), VersionID
 URL (https://my-bucket.s3.ca-central-1.amazonaws.com/my-object.txt), Can be presigned  
 Security with IAM policies, IAM roles, Bucket policies  
 Allow, s3:GetObject, arn:aws:s3:::my-bucket/\*, Principal (* for public access)  
-Bucket policies can allow cross account access  
+Bucket policies can allow cross account access, ACL at bucket or object level  
 Block all public access, Safety at bucket or account level, Overrules everything  
 Static website hosting, Index document, Error document  
 Get bucket website endpoint (http://my-bucket.s3-website.ca-central-1.amazonaws.com)  
