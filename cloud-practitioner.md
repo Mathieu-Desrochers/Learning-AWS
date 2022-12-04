@@ -97,5 +97,5 @@ ASG - Automatic Scaling Groups
 Automatic horizontal scaling based on minimum, desired and maximum capacity  
 Registers instances to ELB, Replaces unhealthy instances  
 Has launch template (EC2 instances configuration), Scaling policy  
-Manual, Simple / Step (when CPU > 70% add 2), Target tracking (keep average CPU at 40%)  
-Scheduled, Predictive (machine learning to detect pattern, provision in advance)  
+Dynamic: Simple / Step (when CPU > 70% add 2), Target tracking (keep average CPU at 40%), Scheduled  
+Predictive (machine learning to detect pattern, provision in advance)  
