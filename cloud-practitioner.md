@@ -69,7 +69,7 @@ For Windows Server, SMB protocol, NTFS, AD integration
 For Lustre, Linux cluster, High performance computing (HPC)  
 Both accessed from AWS or on premise  
 
-## AMI - Amazon Machine Image  
+## AMI - Amazon Machine Image
 Base image for EC2 instances, Locked to one region  
 Public, My AMIs, AWS Marketplace, Popular Amazon Linux 2  
 Launch EC2 instance, Install software and configure, Stop instance, Build AMI  
@@ -97,3 +97,9 @@ Registers instances to ELB, Replaces unhealthy instances
 Has launch template (EC2 instances configuration), Scaling policy  
 Dynamic: Simple / Step (when CPU > 70% add 2), Target tracking (keep average CPU at 40%), Scheduled  
 Predictive (machine learning to detect pattern, provision in advance)  
+
+## S3 - Object Storage
+Backups, Static website, Software delivery, Media hosting, Data lakes  
+Bucket, Globally unique name, Scoped to region  
+Object, Key (s3://my-bucket/my-object.txt), Can simulate folders with prefix  
+Value (max 5TB, multi-part upload above 5GB), Metadata (key/value pairs), VersionID  
