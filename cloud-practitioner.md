@@ -114,3 +114,6 @@ Bucket versioning, Versions are strings (xqkPZ...4P), Latest is returned
 Overriting key creates new object with bumped version  
 Deleting adds delete marker version, can delete it to undelete  
 Deleting version rollbacks to previous one  
+Replication, Cross-region replicaton (CRR), Same-region replication (SRR)  
+Must enable versioning, Is asynchronous  
+Replication rule, Source, Filter (all), Destination, IAM role creation  
