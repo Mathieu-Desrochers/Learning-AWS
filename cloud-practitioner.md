@@ -110,7 +110,7 @@ Bucket policies can allow cross account access, ACL at bucket or object level
 Block all public access, Safety at bucket or account level, Overrules everything  
 Static website hosting, Index document, Error document  
 Get bucket website endpoint (http://my-bucket.s3-website.ca-central-1.amazonaws.com)  
-Bucket versioning, Versions are strings (xqkPZ...4P)  
+Bucket versioning, Versions are strings (xqkPZ...4P), Latest is returned  
 Overriting key creates new object with bumped version  
 Deleting adds delete marker version, can delete it to undelete  
 Deleting version rollbacks to previous one  
