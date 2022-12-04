@@ -130,6 +130,7 @@ Encryption, None, Server-Side, Client-Side
 ## Snow Family - Physical Devices
 Large scale data transport (in and out, S3 interface)  
 Edge computing (personal offline cloud, EC2 instances)  
+AWS OpsHub software download for management  
 Snowcone (8TB, 2 vCPUs, 4GB memory), Data Sync agent if online later  
 Snowball Edge Storage Optimized (80TB, 40 vCPUs, 80GB memory)  
 Snowball Edge Compute Optimized (42TB, 52 vCPUs, 208GB memory, GPU)  
