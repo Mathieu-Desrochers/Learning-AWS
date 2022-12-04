@@ -117,3 +117,10 @@ Deleting version rollbacks to previous one
 Replication, Cross-region replicaton (CRR), Same-region replication (SRR)  
 Must enable versioning, Is asynchronous  
 Replication rule, Source, Filter (all), Destination, IAM role creation  
+Storage classes, Anything but Standard incurs retrieval fee, More per GET/POST  
+Standard Infrequent Access (IA), Instant retrieval  
+One-Zone Infrequent Access, Instant retrieval, Cheaper, Less availability  
+Glacier Instant Retrieval, Instant retrieval  
+Glacier Flexible Retrieval, Expedited (1-5m), Standard (3-5h), Bulk (5-12h)  
+Glacier Deep Archive, Standard (12h), Bulk (48h)  
+Intelligent Tiering, Instant retrieval, Moves object between classes automatically  
