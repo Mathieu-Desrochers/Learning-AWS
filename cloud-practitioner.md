@@ -126,6 +126,7 @@ Glacier Deep Archive, Standard (12h), Bulk (48h)
 Intelligent Tiering, Instant retrieval, No retrieval fee, Move objects between classes automatically  
 Lifecycle rule, Filter (all), Transitions (after x day goto class y)  
 Encryption, None, Server-Side, Client-Side  
+Storage Gateway, Bridge between on premise and AWS storage  
 
 ## Snow Family - Physical Devices
 Large scale data transport (in and out, S3 interface)  
