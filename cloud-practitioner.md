@@ -108,3 +108,5 @@ Security with IAM policies, IAM roles, Bucket policies
 Allow, s3:GetObject, arn:aws:s3:::my-bucket/\*, Principal (* for public access)  
 Bucket policies can allow cross account access  
 Block all public access, Safety at bucket or account level, Overrules everything  
+Enable static website hosting, Index document, Error document  
+Get bucket website endpoint (https://my-bucket.s3-website.ca-central-1.amazonaws.com)  
