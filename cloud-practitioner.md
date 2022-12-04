@@ -125,3 +125,4 @@ Glacier Flexible Retrieval, Expedited (1-5m), Standard (3-5h), Bulk (5-12h)
 Glacier Deep Archive, Standard (12h), Bulk (48h)  
 Intelligent Tiering, Instant retrieval, No retrieval fee, Move objects between classes automatically  
 Lifecycle rule, Filter (all), Transitions (after x day goto class y)  
+Encryption, None, Server-Side, Client-Side  
