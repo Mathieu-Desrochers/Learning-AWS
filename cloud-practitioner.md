@@ -137,9 +137,10 @@ Snowball Edge Storage Optimized (80TB, 40 vCPUs, 80GB memory)
 Snowball Edge Compute Optimized (42TB, 52 vCPUs, 208GB memory, GPU)  
 Snowmobile (100PB), Actual truck  
 
-## Databases - Structured data
+## Databases - Structured Data
 Relational, Tables, References, SQL  
 NoSQL, Flexible schema, Key-Value, Document, Graph, In-Memory, Search, JSON  
 Fully managed, Backups / restores (point in time), Dashboard and alerts, Maintenance windows  
 RDS - Relational Database Service, Postgres, MySql, MariaDB, Oracle, SQL Server  
 Aurora, AWS proprietary, PostgreSQL or MySQL (3x or 5x faster), Auto-grow (10GB), Cost more (20%)  
+Take, restore, copy (other region) and share snapshots (other account)  
