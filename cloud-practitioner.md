@@ -147,6 +147,8 @@ Snapshots, Take, Restore, Copy (other region), Share (other account)
 Read replicas (up to 5, can be across regions), Failover (replication to one other AZ, passive)  
 ElastiCache, Redis or Memcached, In-memory, High performance  
 DynamoDB, NoSQL, High availability (3 AZ), Serverless (no EC2 instance type selection)  
-Million req/s, Low latency (single digit ms), Standard and Infrequest Access (IA) tables  
-Key-Value, Primary key (Partition key + Sort key), Attributes (columns, per item)  
+Millions req/s, Low latency (single digit ms), Standard and Infrequest Access (IA) tables  
+Key-Value, Tables with primary key (Partition key + Sort key), Attributes (columns, per item)  
 DAX - DynamoDB Accelerator, Specific memory cache (10x faster, microseconds)  
+Global tables (2-way replication, across regions)  
+Redshift, Online analytical processing (OLAP), Data warehouse, Columnar  
