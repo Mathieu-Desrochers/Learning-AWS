@@ -142,7 +142,7 @@ Relational, Tables, References, SQL
 NoSQL, Flexible schema, Key-Value, Document, Graph, In-Memory, Search, JSON  
 Fully managed, Backups / restores (point in time), Dashboard and alerts, Maintenance windows  
 RDS - Relational Database Service, Postgres, MySql, MariaDB, Oracle, SQL Server
-Aurora, AWS proprietary, PostgreSQL or MySQL (3x or 5x faster), Auto-grow (10GB), Cost more (20%)  
+Aurora, AWS proprietary Postgres or MySql (3x or 5x faster), Auto-grow (10GB), Cost more (20%)  
 Snapshots, Take, Restore, Copy (other region), Share (other account)  
 Read replicas (up to 5, can be across regions), Failover (replication to one other AZ, passive)  
 ElastiCache, Redis or Memcached, In-memory, High performance  
@@ -151,4 +151,10 @@ Millions req/s, Low latency (single digit ms), Standard and Infrequest Access (I
 Key-Value, Tables with primary key (Partition key + Sort key), Attributes (columns, per item)  
 DAX - DynamoDB Accelerator, Specific memory cache (10x faster, microseconds)  
 Global tables (2-way replication, across regions)  
-Redshift, Online analytical processing (OLAP), Data warehouse, Columnar  
+Redshift, Online analytical processing (OLAP), Data warehouse, Query PBs of data using SQL, Columnar  
+ERM - Elastic Map Reduce, Hadoop or Spark (batch or real-time) clusters (100s EC2 instances), Data processing  
+Athena, SQL against S3 objects (CSV, JSON, Parquet), Serverless, Perfect to analyse logs  
+QuickSight, AI for BI dashboard generation, Integrations with RDS, Aurora, Redshift, S3  
+DocumentDB, AWS proprietary MongoDB, NoSQL using JSON  
+Neptune, Graph database, Store and query relations  
+QLDB - Quantum Ledger Database, Immutable, Cryptographically verifiable, No decentralization, SQL  
