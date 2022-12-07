@@ -138,12 +138,10 @@ Snowball Edge Compute Optimized (42TB, 52 vCPUs, 208GB memory, GPU)
 Snowmobile (100PB), Actual truck  
 
 ## Databases - Structured Data
-Relational, Tables, References, SQL  
+Relational, Tables, References, OLTP, SQL  
 NoSQL, Flexible schema, Key-Value, Document, Graph, In-Memory, Search, JSON  
-Fully managed, Backups / restores (point in time), Dashboard and alerts, Maintenance windows  
 RDS - Relational Database Service, Postgres, MySql, MariaDB, Oracle, SQL Server  
 Aurora, AWS proprietary Postgres or MySql (3x or 5x faster), Auto-grow (10GB), Cost more (20%)  
-Snapshots, Take, Restore, Copy (other region), Share (other account)  
 Read replicas (up to 5, can be across regions), Failover (replication to one other AZ, passive)  
 ElastiCache, Redis or Memcached, In-memory, High performance  
 DynamoDB, NoSQL, High availability (3 AZ), Serverless (no EC2 instance type selection)  
