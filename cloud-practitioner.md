@@ -79,7 +79,7 @@ Pipeline with schedule (time or new package version)
 Recipe with source AMI, Components, Test components  
 Insfrastructure with IAM role and instance type for pipeline run  
 Distribution to multiple regions  
-Uses B=build and test EC2 instances, Creates AMI image  
+Uses build and test EC2 instances, Creates AMI image  
 
 ## Scability, Elasticity and High Availability
 Scability can handle bigger loads  
