@@ -51,10 +51,9 @@ Dedicated Instances, Instances on hardware not shared with other accounts
 Capacity Reservation, Guaranteed availability in AZ for duration, Pay use or not  
 
 ## EC2 - Instance Storage
-EBS - Elastic Block Storage Volumes  
-Network drive, Can attach to one EC2 instance, Locked to AZ  
+EBS - Elastic Block Storage Volumes, Network drive, Can attach to one EC2 instance  
 Capacity in GBs and IOPS, Can be changed, Popular General Purpose SSD (gp2)  
-Delete on Termination attribute (default true for root drives)  
+Delete on Termination attribute (default true for root drives), Locked to AZ  
 EBS Snapshots - EBS Volume backup at point in time  
 Create volume from snapshot, Can copy across AZ and regions  
 Archive storage tier (-75%, 24-72h), Recycle bin (1 day to one year)  
