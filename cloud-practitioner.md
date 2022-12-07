@@ -151,7 +151,7 @@ Glue, Managed extract transform and load (ETL), Data catalogs
 DMS - Database Migration Service, Runs on EC2 instances, Homogeneous or Heterogeneous  
 
 ## Other Compute Services
-ECS - Elastic Container Service, Runs docker  
-Starts, stops and spreads containers, Must provision EC2 instances  
+ECS - Elastic Container Service, Runs docker, Must provision EC2 instances  
+Starts, stops and spreads containers, Integrates with Application Load Balancer  
 Fargate, Serverless, No EC2 instances to manage, Based on needed CPU/RAM  
 ECR - Elastic Container Registry, Private docker images registry  
