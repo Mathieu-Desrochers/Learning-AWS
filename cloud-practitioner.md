@@ -151,7 +151,7 @@ Global tables (2-way replication, across regions)
 Redshift, Online analytical processing (OLAP), Data warehouse, Query PBs of data using SQL, Columnar  
 ERM - Elastic Map Reduce, Hadoop or Spark (batch or real-time) clusters (100s EC2 instances), Data processing  
 Athena, SQL against S3 objects (CSV, JSON, Parquet), Serverless, Perfect to analyse logs  
-QuickSight, AI for BI dashboard generation, Supports RDS, Aurora, Redshift, S3  
+QuickSight, BI dashboard generation, Supports RDS, Aurora, Redshift, S3  
 DocumentDB, AWS proprietary MongoDB, NoSQL using JSON  
 Neptune, Graph database, Store and query relations  
 QLDB - Quantum Ledger Database, Immutable, Cryptographically verifiable, No decentralization, SQL  
