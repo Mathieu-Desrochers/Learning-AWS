@@ -58,11 +58,9 @@ Delete on Termination attribute (default true for root drives)
 EBS Snapshots - EBS Volume backup at point in time  
 Create volume from snapshot, Can copy across AZ and regions  
 Archive storage tier (-75%, 24-72h), Recycle bin (1 day to one year)  
-EC2 Instance Store  
-Physical drive, High Performance, Ephemeral (lost when instance stopped)  
-EFS - Elastic File System  
-Managed network file system, Can attach to 100s of EC2 instances, Multi AZ  
-Linux only, Pay per use (no capacity planning)  
+EC2 Instance Store, Physical drive, High Performance, Ephemeral (lost when instance stopped)  
+EFS - Elastic File System, Managed network file system, Can attach to 100s of EC2 instances  
+Linux only, Pay per use (no capacity planning), Multi AZ    
 EFS IA - Infrequent Access (-92%), Lifecycle policy (60 days)  
 Amazon FSx - Fully managed 3rd party file systems  
 For Windows Server, SMB protocol, NTFS, AD integration  
