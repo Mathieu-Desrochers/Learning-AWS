@@ -83,7 +83,7 @@ Uses B=build and test EC2 instances, Creates AMI image
 
 ## Scability, Elasticity and High Availability
 Scability can handle bigger loads  
-Horizontal (in out) more instances, Vertical (up down) bigger instances  
+Horizontal (in/out) more instances, Vertical (up/down) bigger instances  
 Elasticity automatic scaling, High availability instances in multiple AZ  
 ELB - Elastic Load Balancer  
 Single point of access, Spread load across downstream instances  
