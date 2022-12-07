@@ -4,7 +4,7 @@ On demand, Pay-as-you-go
 Private, Public, Hybrid  
 Network access, Multi-Tenancy, Elasticity, Measured  
 OPEX, Economies of scale, Capacity, Agility, No data centers, Global  
-IaaS, PaaS, Saas / Virtualization | OS, Runtime | Data  
+IaaS, PaaS, Saas, Virtualization | OS, Runtime | Data  
 Pay compute time, data stored, network out  
 Regions, Availability Zones, Data centers, Edge locations (2-6 DC per AZ)  
 Chose for Compliance, Proximity, Available services, Pricing  
