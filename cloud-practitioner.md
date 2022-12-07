@@ -1,7 +1,6 @@
 ## Cloud computing
 Compute, Memory, Storage, Database, Network  
-On demand, Pay-as-you-go  
-Private, Public, Hybrid  
+On demand, Pay-as-you-go, Private, Public, Hybrid  
 Network access, Multi-Tenancy, Elasticity, Measured  
 OPEX, Economies of scale, Capacity, Agility, No data centers, Global  
 IaaS, PaaS, Saas, Virtualization | OS, Runtime | Data  
