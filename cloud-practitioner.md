@@ -11,15 +11,13 @@ Shared Responsability Principle, Acceptable Use Policy
 
 ## IAM - Identity and Access Management
 Root account by default, don't use  
-Users in groups, no group nesting, Policies assigned to groups or users  
-Effect (Allow), Action (s3:GetObject), Resource (arn:aws:s3:...), Principal (arn:aws:iam:...)  
 Create user in admin group with AdministratorAccess policy  
+Users in groups, No group nesting, Policies assigned to groups or inline to users  
+Effect (Allow), Action (s3:GetObject), Resource (arn:aws:s3:...), Principal (arn:aws:iam:...)  
 Account ID, Account Alias, Sign-in URL per account  
-Inline policy to user directly  
 Password policy, Length, Characters, Can change or not, No reuse  
 MFA, Virtual device, Universal 2nd Factor, Hardware Key Fob  
-Access keys for CLI and SDK, Access Key ID + Secret Access Key  
-Run aws configure to use them  
+Access keys for CLI and SDK, Access Key ID + Secret Access Key, Run aws configure    
 Cloud Shell, File persistance, Upload and download  
 Policies assigned to roles assigned to services (EC2, Lambda...)  
 IAM Credentials Report (per account)  
