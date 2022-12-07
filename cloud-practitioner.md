@@ -12,8 +12,7 @@ Shared Responsability Principle, Acceptable Use Policy
 
 ## IAM - Identity and Access Management
 Root account by default, don't use  
-Users in groups, no group nesting  
-Policies assigned to groups or users  
+Users in groups, no group nesting, Policies assigned to groups or users  
 Effect (Allow), Action (s3:GetObject), Resource (arn:aws:s3:...), Principal (arn:aws:iam:...)  
 Create user in admin group with AdministratorAccess policy  
 Account ID, Account Alias, Sign-in URL per account  
@@ -31,14 +30,12 @@ IAM Access Advisor (per user), Services and last use
 Be safe, Billing Dashboard, Create budget with email alert  
 CPU, Memory, Storage (network / hardware), Network, OS (Linux, Windows, Mac)  
 EC2 User Data, Bootstrap script as root on first boot  
-Key Pair for SSH access  
-Private IP address, Can have public IP that changes on stop / start  
+Key Pair for SSH access, Private IP address, Can have public IP that changes on stop / start  
 Instance state stopped no billing, terminate to delete  
 Instance types: ClassGeneration.Size, Popular t2.micro  
 General Purpose (t), Compute Optimized (C), Memory Optimized (R), Storage Optimized  
 Security groups, Firewall with allow rules only, Inbound and outbound  
-Protocol, IP Range, Port Range  
-Multiple EC2 instances to multiple security groups  
+Protocol, IP Range, Port Range, Multiple EC2 instances to multiple security groups  
 Security groups can allow other security groups, instead of IP  
 21 FTP, 22 SSH SFTP, 80 HTTP, 443 HTTPS, 3389 RDP  
 On demand, Pay per second, Short workload  
