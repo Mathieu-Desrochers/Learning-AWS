@@ -149,3 +149,9 @@ QLDB - Quantum Ledger Database, Immutable, Cryptographically verifiable, Central
 Managed Blockchain, Public or private network, Hyperledger Fabric, Ethereum, Decentralized    
 Glue, Managed extract transform and load (ETL), Data catalogs  
 DMS - Database Migration Service, Runs on EC2 instances, Homogeneous or Heterogeneous  
+
+## Other Compute Services
+ECS - Elastic Container Service, Runs docker  
+Starts, stops and spreads containers, Must provision EC2 instances  
+Fargate, Serverless, No EC2 instances to manage, Based on needed CPU/RAM  
+ECR - Elastic Container Registry, Private docker images registry  
