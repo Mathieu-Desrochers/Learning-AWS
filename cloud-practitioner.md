@@ -109,7 +109,7 @@ Allow, s3:GetObject, arn:aws:s3:::my-bucket/\*, Principal (* for public access)
 Bucket policies can allow cross account access, ACL at bucket or object level  
 Block all public access, Safety at bucket or account level, Overrules everything  
 Static website hosting, Index document, Error document  
-Get bucket website endpoint (http://my-bucket.s3-website.ca-central-1.amazonaws.com)  
+Bucket website endpoint (http://my-bucket.s3-website.ca-central-1.amazonaws.com)  
 Bucket versioning, Versions are strings (xqkPZ...4P), Latest is returned  
 Overriting key creates new object with bumped version  
 Deleting adds delete marker version, can delete it to undelete  
@@ -144,10 +144,9 @@ RDS - Relational Database Service, Postgres, MySql, MariaDB, Oracle, SQL Server
 Aurora, AWS proprietary Postgres or MySql (3x or 5x faster), Auto-grow (10GB), Cost more (20%)  
 Read replicas (up to 5, can be across regions), Failover (replication to one other AZ, passive)  
 ElastiCache, Redis or Memcached, In-memory, High performance  
-DynamoDB, NoSQL, High availability (3 AZ), Serverless (no EC2 instance type selection)  
-Millions req/s, Low latency (single digit ms), Standard and Infrequest Access (IA) tables  
-Key-Value, Tables with primary key (partition key + sort key), Attributes (columns, per item)  
-DAX - DynamoDB Accelerator, Specific memory cache (10x faster, microseconds)  
+DynamoDB, Key-Value, High availability (3 AZ), Serverless (no EC2 instance type selection)  
+Tables with primary key (partition key + sort key), Attributes (columns, per item)  
+DAX - DynamoDB Accelerator, Specific memory cache (10x faster)  
 Global tables (2-way replication, across regions)  
 Redshift, Online analytical processing (OLAP), Data warehouse, Query PBs of data using SQL, Columnar  
 ERM - Elastic Map Reduce, Hadoop or Spark (batch or real-time) clusters (100s EC2 instances), Data processing  
