@@ -148,13 +148,16 @@ Read replicas (up to 5, can be across regions), Failover (replication to one oth
 ElastiCache, Redis or Memcached, In-memory, High performance  
 DynamoDB, NoSQL, High availability (3 AZ), Serverless (no EC2 instance type selection)  
 Millions req/s, Low latency (single digit ms), Standard and Infrequest Access (IA) tables  
-Key-Value, Tables with primary key (Partition key + Sort key), Attributes (columns, per item)  
+Key-Value, Tables with primary key (partition key + sort key), Attributes (columns, per item)  
 DAX - DynamoDB Accelerator, Specific memory cache (10x faster, microseconds)  
 Global tables (2-way replication, across regions)  
 Redshift, Online analytical processing (OLAP), Data warehouse, Query PBs of data using SQL, Columnar  
 ERM - Elastic Map Reduce, Hadoop or Spark (batch or real-time) clusters (100s EC2 instances), Data processing  
 Athena, SQL against S3 objects (CSV, JSON, Parquet), Serverless, Perfect to analyse logs  
-QuickSight, AI for BI dashboard generation, Integrations with RDS, Aurora, Redshift, S3  
+QuickSight, AI for BI dashboard generation, Supports RDS, Aurora, Redshift, S3  
 DocumentDB, AWS proprietary MongoDB, NoSQL using JSON  
 Neptune, Graph database, Store and query relations  
 QLDB - Quantum Ledger Database, Immutable, Cryptographically verifiable, No decentralization, SQL  
+Managed Blockchain, Public or private network, Hyperledger Fabric, Ethereum  
+Glue, Managed extract transform and load (ETL), Data catalogs  
+DMS - Database Migration Service, Runs on EC2 instances, Homogeneous or Heterogeneous  
