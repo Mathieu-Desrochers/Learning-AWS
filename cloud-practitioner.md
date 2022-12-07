@@ -154,7 +154,7 @@ Athena, SQL against S3 objects (CSV, JSON, Parquet), Serverless, Perfect to anal
 QuickSight, BI dashboard generation, Supports RDS, Aurora, Redshift, S3  
 DocumentDB, AWS proprietary MongoDB, NoSQL using JSON  
 Neptune, Graph database, Store and query relations  
-QLDB - Quantum Ledger Database, Immutable, Cryptographically verifiable, No decentralization, SQL  
-Managed Blockchain, Public or private network, Hyperledger Fabric, Ethereum  
+QLDB - Quantum Ledger Database, Immutable, Cryptographically verifiable, Centralized, SQL  
+Managed Blockchain, Public or private network, Hyperledger Fabric, Ethereum, Decentralized    
 Glue, Managed extract transform and load (ETL), Data catalogs  
 DMS - Database Migration Service, Runs on EC2 instances, Homogeneous or Heterogeneous  
