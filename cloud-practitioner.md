@@ -155,8 +155,8 @@ ECS - Elastic Container Service, Runs docker, Must provision EC2 instances
 Starts, stops and spreads containers, Integrates with Application Load Balancer  
 Fargate, Serverless, No EC2 instances to manage, Based on needed CPU/RAM  
 ECR - Elastic Container Registry, Private docker images registry  
-Lambda, Event-Driven, Pay per calls and duration (in GBs, RAM * seconds)  
+Lambda, Event driven, Pay per calls and duration (in GBs, RAM * seconds)  
 Increasing RAM also increase CPU and network, All languages, Lambda Container Image  
-Function with code, test events, timeout (15m), IAM role (for CloudWatch logs)  
+Function with code, test events, timeout (max 15m), IAM role (for CloudWatch logs)  
 API Gateway, REST or websocket, Authentication and Authorization, API Keys  
 Throttling, Versions, Can expose lambdas  
