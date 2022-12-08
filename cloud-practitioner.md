@@ -160,3 +160,4 @@ Increasing RAM also increase CPU and network, All languages, Lambda Container Im
 Function with code, test events, timeout (max 15m), IAM role (for CloudWatch logs)  
 API Gateway, REST or websocket, Authentication and Authorization, API Keys  
 Throttling, Versions, Can expose lambdas  
+Batch, Dynamically launch EC2 instances (can be spot), Jobs are docker images, Run on ECS  
