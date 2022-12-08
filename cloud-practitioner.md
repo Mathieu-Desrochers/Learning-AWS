@@ -158,7 +158,6 @@ ECR - Elastic Container Registry, Private docker images registry
 Lambda, Event driven, Pay per calls and duration (in GBs, RAM * seconds)  
 Increasing RAM also increase CPU and network, All languages, Lambda Container Image  
 Function with code, test events, timeout (max 15m), IAM role (for CloudWatch logs)  
-API Gateway, REST or websocket, Authentication and Authorization, API Keys  
-Throttling, Versions, Can expose lambdas  
+API Gateway, REST or websocket, Authentication and Authorization, API Keys, Throttling, Can expose lambdas  
 Batch, Automatically provision EC2 instances (can be spot), Jobs as docker images, Run on ECS  
 Lightsail, Baby alternative to EC2/EBS/RDS, Templates for LAMP, Node.js, WordPress  
