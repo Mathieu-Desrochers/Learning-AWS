@@ -169,7 +169,7 @@ Stack with template for resources (json/yaml), Name, Parameters (!Ref Color)
 Apply updates with changet preview, Events (create_in_progress, create_complete)  
 CDK - Cloud Development Kit, Infrastructure in programming language  
 If/Loop/Functions, Compiled by CDK CLI to json/yaml  
-Beanstalk, Managed typical architectures (Single, LB + ASG, ASG only), PaaS  
+Beanstalk, Runs our code on typical architectures (Single, LB + ASG, ASG only), PaaS  
 Health monitoring with CloudWatch, Creates CloudFormation stack  
 Application with name, Platform (language/os), Code (upload), Public URL  
 Can edit configuration, Upload and deploy new code version  
