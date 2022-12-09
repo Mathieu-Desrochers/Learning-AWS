@@ -167,3 +167,5 @@ CloudFormation, Declarative, Infrastructure as code, Nice for source control
 Provisions in the right order, Easy to delete/create for costs saving, Diagrams  
 Stack with template for resources (json/yaml), Name, Parameters (!Ref Color)  
 Apply updates with changet preview, Events (create_in_progress, create_complete)  
+CDK - Cloud Development Kit, Infrastructure in programming language  
+If/Loop/Functions, Compiled by CDK CLI to json/yaml  
