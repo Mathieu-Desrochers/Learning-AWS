@@ -170,3 +170,4 @@ Apply updates with changet preview, Events (create_in_progress, create_complete)
 CDK - Cloud Development Kit, Infrastructure in programming language  
 If/Loop/Functions, Compiled by CDK CLI to json/yaml  
 Beanstalk, Managed typical architectures (Single, LB + ASG, ASG only), PaaS  
+Health monitoring with agents, Push to CloudWatch  
