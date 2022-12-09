@@ -172,4 +172,4 @@ If/Loop/Functions, Compiled by CDK CLI to json/yaml
 Beanstalk, Runs our code on typical architectures (Single, LB + ASG, ASG only), PaaS  
 Health monitoring with CloudWatch, Creates CloudFormation stack  
 Application with name, Platform (language/os), Code (upload), Public URL  
-Can edit configuration, Upload and deploy new code version  
+Can edit configuration, Upload new code version, Multiple environments (dev/prod)  
