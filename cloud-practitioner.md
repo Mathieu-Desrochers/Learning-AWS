@@ -173,3 +173,12 @@ Beanstalk, Runs our code on typical architectures (Single, LB + ASG, ASG only), 
 Health monitoring with CloudWatch, Creates CloudFormation stack  
 Application with name, Platform (language/os), Code (upload), Public URL  
 Can edit configuration, Upload new code version, Multiple environments (dev/prod)  
+
+## Software Development
+Code Commit, Managed git repositories  
+Code Build, Compiles code, Runs tests, Builds packages, Pay for build time  
+Code Artefact, Store dependencies and built packages (nuget, npm, pip)  
+Code Deploy, EC2 instances or on premise, Upgrades versions, Requires Code Deploy Agent  
+Code Pipeline, Basis for CI/CD, orcherstration for the steps above  
+Code Star, All in one, Quick start with dashboard and best practices  
+Cloud9, Browser based IDE, Run and debug, Multi-users collaboration  
