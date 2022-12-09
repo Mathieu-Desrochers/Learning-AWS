@@ -161,3 +161,9 @@ Function with code, test events, timeout (max 15m), IAM role (for CloudWatch log
 API Gateway, REST or websocket, Authentication and Authorization, API Keys, Throttling, Can expose lambdas  
 Batch, Automatically provision EC2 instances (can be spot), Jobs as docker images, Runs on ECS  
 Lightsail, Baby alternative to EC2/EBS/RDS, Templates for LAMP, Node.js, WordPress  
+
+## Managing Infrastructure at Scale
+CloudFormation, Declarative, Infrastructure as code, Nice for source control  
+Provisions in the right order, Easy to delete/create for costs saving, Diagrams  
+Stack with template (json/yaml), Name, Parameters (!Ref Color)  
+Apply updates with changet preview, Events (create_in_progress, create_complete)  
