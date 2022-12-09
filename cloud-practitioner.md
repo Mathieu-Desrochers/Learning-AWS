@@ -176,7 +176,7 @@ Can edit configuration, Upload new code version, Multiple environments (dev/prod
 
 ## Software Development
 Code Commit, Managed git repositories  
-Code Build, Compiles code, Runs tests, Builds packages, Pay for build time  
+Code Build, Compile code, Run tests, Build packages, Pay for build time  
 Code Artefact, Store dependencies and built packages (nuget, npm, pip)  
 Code Deploy, EC2 instances or on premise, Upgrades versions, Requires Code Deploy Agent  
 Code Pipeline, Basis for CI/CD, orcherstration for the steps above  
