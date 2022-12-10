@@ -108,7 +108,7 @@ Deleting version rollbacks to previous one
 Replication, Cross-region replicaton (CRR), Same-region replication (SRR)  
 Must enable versioning, Is asynchronous  
 Replication rule with source, Filter (all), Destination, IAM role  
-Storage class, Per object, Anything but Standard has retrieval fee, Cost more per GET/POST  
+Storage classes, Per object, Anything but Standard has retrieval fee, Cost more per GET/POST  
 Standard Infrequent Access (IA), Instant retrieval  
 One-Zone Infrequent Access (IA), Instant retrieval, Cheaper, Less availability  
 Glacier Instant Retrieval, Instant retrieval  
