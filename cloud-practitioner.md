@@ -185,7 +185,8 @@ Provisions Beanstalk with CloudFormation with EC2 instances
 Cloud9, Browser IDE, Code and debug, Multi-users collaboration, Runs on EC2 instances  
 
 ## System Management
-SSM - Systems Manager, Manage fleet of computers, EC2 instances or on premise  
+SSM - Systems Manager, Manage fleet of computers, EC2 instances or on premise 
 Patching, Running commands, Applying configuration, Windows and Linux  
 Requires SSM Agent (installed by default on Amazon Linux)  
 SSM Session Manager, Shell to computer through SSM Agent, No SSH or Bastion  
+EC2 instances require IAM role with AmazonSSMManagedInstanceCore policy  
