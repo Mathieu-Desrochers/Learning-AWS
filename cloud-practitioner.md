@@ -190,4 +190,4 @@ Patching, Running commands, Applying configuration, Windows and Linux
 Requires SSM Agent (installed by default on Amazon Linux)  
 SSM Session Manager, Shell to computer through SSM Agent, No SSH or Bastion  
 EC2 instances require IAM role with AmazonSSMManagedInstanceCore policy  
-OpsWorks, Managed Chef and Puppet, 3rd party alternatives to SSM  
+OpsWorks, Managed Chef or Puppet, 3rd party alternatives to SSM  
