@@ -107,16 +107,16 @@ Deleting adds delete marker version, can delete it to undelete
 Deleting version rollbacks to previous one  
 Replication, Cross-region replicaton (CRR), Same-region replication (SRR)  
 Must enable versioning, Is asynchronous  
-Replication rule, Source, Filter (all), Destination, IAM role creation  
-Storage classes, Per object, Anything but Standard has retrieval fee, Cost more per GET/POST  
+Replication rule with source, Filter (all), Destination, IAM role  
+Storage class, Per object, Anything but Standard has retrieval fee, Cost more per GET/POST  
 Standard Infrequent Access (IA), Instant retrieval  
 One-Zone Infrequent Access (IA), Instant retrieval, Cheaper, Less availability  
 Glacier Instant Retrieval, Instant retrieval  
 Glacier Flexible Retrieval, Expedited (1-5m), Standard (3-5h), Bulk (5-12h)  
 Glacier Deep Archive, Standard (12h), Bulk (48h)  
 Intelligent Tiering, Instant retrieval, No retrieval fee, Move objects between classes automatically  
-Lifecycle rule, Filter (all), Transitions (after x day goto class y)  
-Encryption, None, Server-Side, Client-Side  
+Lifecycle rule with filter (all), Transitions (after x day goto class y)  
+Encryption (None, Server-Side, Client-Side)  
 Storage Gateway, Extend on-premise storage to S3  
 
 ## Snow Family - Physical Devices
