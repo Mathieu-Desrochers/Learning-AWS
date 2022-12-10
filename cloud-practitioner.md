@@ -213,5 +213,5 @@ Outposts, On-premise server racks managed by AWS, Run AWS services locally
 Regions have Availability Zones, Local Zones and Wavelength Zones  
 Local Zones, At a precise geographical location (us-east-1-bos-1, Boston)  
 Wavelength, At the edge of 5G networks (us-east-1-wl1-bos-wlz-1, Boston)  
-Architectures, Single region single AZ (easy), Single region multi AZ (high availability)  
+Architectures, Single region single AZ (easy), Multi AZ (high availability)  
 Multi regions active-passive (low read latency), Active-active (low write latency)  
