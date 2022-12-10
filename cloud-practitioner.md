@@ -182,4 +182,4 @@ Code Deploy, EC2 instances or on premise, Upgrades versions, Requires Code Deplo
 Code Pipeline, Basis for CI/CD, orcherstration for the steps above  
 Code Star, All in one, Quick start with dashboard and best practices  
 Provisions Beanstalk with CloudFormation with EC2 instances  
-Cloud9, Browser IDE, Code and debug, Runs on EC2 instances, Multi-users collaboration  
+Cloud9, Browser IDE, Code and debug, Multi-users collaboration, Runs on EC2 instances  
