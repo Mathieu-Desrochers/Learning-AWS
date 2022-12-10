@@ -206,3 +206,4 @@ Distribution with domain name (cloudfront.net)
 Origin domain (S3 bucket URL, custom HTTP URL), Default root object  
 Origin access (public, Origin Access Control + S3 bucket policy)  
 Allow, s3:GetObject, arn:aws:s3:::..., Principal cloudfront.amazonaws.com  
+S3 Transfer Acceleration, Upload to S3 bucket through edge locations  
