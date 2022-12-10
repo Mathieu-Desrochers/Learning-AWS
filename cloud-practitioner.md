@@ -209,5 +209,5 @@ Allow, s3:GetObject, arn:aws:s3:::..., Principal cloudfront.amazonaws.com
 S3 Transfer Acceleration, Upload to S3 bucket through edge locations  
 Global Accelerator, Internet until edge location, AWS network until resource  
 Get 2 Anycast IP to send traffic to edge locations  
-Outposts, Physical on-premise server racks managed by AWS  
+Outposts, On-premise physical server racks managed by AWS  
 Extension to the cloud, Runs EC2, EBS, S3, RDS  
