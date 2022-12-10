@@ -191,3 +191,12 @@ Requires SSM Agent (installed by default on Amazon Linux)
 SSM Session Manager, Shell to computer through SSM Agent, No SSH or Bastion  
 EC2 instances require IAM role with AmazonSSMManagedInstanceCore policy  
 OpsWorks, Managed Chef or Puppet, 3rd party alternatives to SSM  
+
+## Global Infrastructure
+Multiple regions or points of presence (edge locations)  
+Less latency, Disaster recovery, Attack protection  
+Route 53, Managed DNS, Domain name registration, A (host to IPv4), AAAA (host to IPv6)  
+CNAME (host to host), Alias (host to AWS resource, ELB, CloudFront, RDS)  
+Hosted zone with record set, Routing policies (per record)  
+Simple (no health check, all others yes), Weighted (load balancing like 70% 30%)  
+Latency (we specify region of IP), Failover (primary and secondary)  
