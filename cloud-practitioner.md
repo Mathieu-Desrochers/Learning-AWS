@@ -238,3 +238,6 @@ CloudTrail, Compliance and audit of AWS account, Enabled by default
 Logs all AWS API calls (from console, SDK, CLI)  
 Event history with events with username, time, full API request body  
 Console to inspect and audit, Export to CloudWatch or S3 for retention  
+X-Ray, Distributed tracing, Troubleshoot performance, Understand dependencies (graph)  
+CodeGuru Reviewer, AI powered code reviews (static code analysis)  
+CodeGuru Profiler, CPU and memory utilization (run time analysis), Minimal overhead  
