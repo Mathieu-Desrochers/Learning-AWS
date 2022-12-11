@@ -240,5 +240,6 @@ Console to inspect and audit, Export to CloudWatch or S3 for retention
 X-Ray, Distributed tracing, Troubleshoot performance, Understand dependencies (graph)  
 CodeGuru Reviewer, AI powered code reviews (static code analysis)  
 CodeGuru Profiler, CPU and memory utilization (run time analysis), Minimal overhead  
-Service Health Dashboard, All AWS services per region, Current status and history  
-Personal Health Dashboard, Services we use only, Proactive with scheduled activities  
+Service Health Dashboard, All services per region, Current status and history  
+Personal Health Dashboard, Services we use only, Scheduled activities  
+Accessible through bell icon, Show all alerts  
