@@ -234,8 +234,7 @@ Log groups with streams with events, Retention
 EventBridge, React to events, Rule with name, Source type  
 Event pattern (AWS service and event type), Schedule (cron or interval)  
 Target (Lambda, SNS, SQS), Event buses (AWS, partner or custom)  
-CloudTrail, Compliance and audit of AWS account, Enabled by default  
-Logs all AWS API calls (from console, SDK, CLI)  
+CloudTrail, Logs all AWS API calls (from console, SDK, CLI), Enabled by default  
 Event history with events with username, time, full API request body  
 Console to inspect and audit, Export to CloudWatch or S3 for retention  
 X-Ray, Distributed tracing, Troubleshoot performance, Understand dependencies (graph)  
