@@ -218,5 +218,6 @@ SQS - Standard Queue, 10k message/s, Retention (max 14d), Infinite messages
 Messages are received by one, ASG based on queue length  
 SNS - Simple Notification Service, Publish and subscribe  
 Messages are received by all, Topic with name, Subscriptions (Lambda, HTTP, Email)  
+MQ, Managed RabbitMQ or ActiveMQ (MQTT, AMQP), 3rd party alternatives to SQS and SNS  
 Kinesis, Real-time streams, Data Streams to ingest (100k sources)  
 Data Analytics to run SQL, Firehost to save (S3, Redshift, Elastic Search)  
