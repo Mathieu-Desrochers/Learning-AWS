@@ -201,7 +201,7 @@ Hosted zone with record set, Routing policies (per record)
 Simple (no health check, all others yes), Weighted (load balancing like 70% 30%)  
 Latency (we specify region of IP), Failover (primary and secondary)  
 CloudFront, CDN, Caching proxy with TTL, Static content at edge locations  
-Distribution with domain name (cloudfront.net), Origin domain (S3 bucket URL, custom HTTP URL)
+Distribution with domain name (cloudfront.net), Origin domain (S3 bucket URL, custom HTTP URL)  
 Origin access (public, Origin Access Control + S3 bucket policy), DDoS protection with WAF and Shield  
 S3 Transfer Acceleration, Download and upload to S3 bucket through edge locations  
 Global Accelerator, Internet until edge location, AWS network until resource  
