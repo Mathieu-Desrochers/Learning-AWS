@@ -174,6 +174,16 @@ Creates CloudFormation stack with EC2 instances, Health monitoring with CloudWat
 Application with name, Platform (language/os), Code (upload), Public URL  
 Can edit configuration, Upload new code version, Multiple environments (dev/prod)  
 
+## Software Development
+Code Commit, Managed git repositories  
+Code Build, Compile code, Run tests, Build packages, Pay for build time  
+Code Artefact, Store dependencies and built packages (nuget, npm, pip)  
+Code Deploy, EC2 instances or on-premise, Upgrades versions, Requires Code Deploy Agent  
+Code Pipeline, Basis for CI/CD, orcherstration for the steps above  
+Code Star, All in one, Quick start with dashboard and best practices  
+Provisions Beanstalk with CloudFormation stack with EC2 instances  
+Cloud9, Browser IDE, Code and debug, Multi-users collaboration, Runs on EC2 instances  
+
 ## Systems Management
 SSM - Systems Manager, Manage fleet of computers, EC2 instances or on-premise  
 Patching, Running commands, Applying configuration, Windows and Linux  
@@ -201,16 +211,6 @@ Local Zones, At a precise geographical location (us-east-1-bos-1, Boston)
 Wavelength Zones, At the edge of 5G networks (us-east-1-wl1-bos-wlz-1, Boston)  
 Architectures, Single region single AZ (easy), Multi AZ (high availability)  
 Multi regions active-passive (low read latency), Active-active (low write latency)  
-
-## Software Development
-Code Commit, Managed git repositories  
-Code Build, Compile code, Run tests, Build packages, Pay for build time  
-Code Artefact, Store dependencies and built packages (nuget, npm, pip)  
-Code Deploy, EC2 instances or on-premise, Upgrades versions, Requires Code Deploy Agent  
-Code Pipeline, Basis for CI/CD, orcherstration for the steps above  
-Code Star, All in one, Quick start with dashboard and best practices  
-Provisions Beanstalk with CloudFormation stack with EC2 instances  
-Cloud9, Browser IDE, Code and debug, Multi-users collaboration, Runs on EC2 instances  
 
 ## Decoupling Applications
 Synchronous vs asynchronous, Scale services independently  
