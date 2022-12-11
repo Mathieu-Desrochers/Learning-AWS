@@ -206,7 +206,7 @@ Origin access (public, Origin Access Control + S3 bucket policy), DDoS protectio
 S3 Transfer Acceleration, Download and upload to S3 bucket through edge locations  
 Global Accelerator, Internet until edge location, AWS network until resource  
 Provides 2 Anycast IP to send traffic to edge locations  
-Outposts, On-premise server racks managed by AWS, Run AWS services locally  
+Outposts, Server racks managed by AWS, Run AWS services on-premise  
 Local Zones, At a precise geographical location (us-east-1-bos-1, Boston)  
 Wavelength Zones, At the edge of 5G networks (us-east-1-wl1-bos-wlz-1, Boston)  
 Architectures, Single region single AZ (easy), Multi AZ (high availability)  
