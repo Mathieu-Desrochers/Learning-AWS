@@ -249,3 +249,5 @@ Subnets with CIDR subrange (in AZ), Public or private (accessibility from intern
 Internet Gateway, Connectivity with internet, Inside VPC, Route from public subnet  
 NAT Gateway, Outbound connectivity to internet, Inside public subnet, Route from private subnet  
 Route Tables, Inside VPC or subnet, Destination (172.31.0.0/16, 0.0.0.0/0), Target (local, gateway)  
+Network ACL, At subnet level, Allow and deny rules, IP only, Stateless  
+Security Groups, Assigned to EC2 instances, Allow rules only, IP or security groups, Stateful  
