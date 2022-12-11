@@ -211,3 +211,8 @@ Local Zones, At a precise geographical location (us-east-1-bos-1, Boston)
 Wavelength Zones, At the edge of 5G networks (us-east-1-wl1-bos-wlz-1, Boston)  
 Architectures, Single region single AZ (easy), Multi AZ (high availability)  
 Multi regions active-passive (low read latency), Active-active (low write latency)  
+
+## Decoupling Applications
+Synchronous vs asynchronous, Scale services independently  
+SQS, Standard queue, 10k message/s, Retention (max 14d), Infinite messages  
+Delete message once processed (hidden to other consumers), ASG based on queue length  
