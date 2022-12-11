@@ -216,7 +216,7 @@ Multi regions active-passive (low read latency), Active-active (low write latenc
 Synchronous vs asynchronous, Scale services independently  
 SQS - Standard Queue, 10k message/s, Retention (max 14d), Infinite messages  
 Delete message once processed (hidden to other consumers), ASG based on queue length  
-SNS - Simple Notification Service, Publisher send messages to topic  
+SNS - Simple Notification Service, Publishers send messages to topic  
 Topic is registered by multiple subscribers (Lambda, HTTP, Emails, Mobile notifications)  
 Kinesis, Real-time streams, Data Streams to ingest (100k sources)  
 Data Analytics to run SQL, Firehost to save (S3, Redshift, Elastic Search)  
