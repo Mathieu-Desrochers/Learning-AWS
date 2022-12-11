@@ -231,3 +231,6 @@ Conditions (> 95%), Actions (EC2, ASG or SNS)
 CloudWatch Logs, Real-time monitoring, Collects from Lambda  
 Beanstalk, ECS, EC2 by installing CloudWatch Logs Agent (with IAM role)  
 Log groups with retention, Streams, Events  
+EventBridge, React to events, Rule with name, Type (rule or schedule)  
+Rule with event pattern (AWS service and event type), Schedule (cron or interval)  
+Target (Lambda, SNS, SQS), Event bus (AWS, partner or custom)  
