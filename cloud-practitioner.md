@@ -216,3 +216,5 @@ Multi regions active-passive (low read latency), Active-active (low write latenc
 Synchronous vs asynchronous, Scale services independently  
 SQS, Standard queue, 10k message/s, Retention (max 14d), Infinite messages  
 Delete message once processed (hidden to other consumers), ASG based on queue length  
+Kinesis, Real-time streams, Data Streams to ingest (100k sources)  
+Data Analytics to run SQL, Firehost to save (S3, Redshift, Elastic Search)  
