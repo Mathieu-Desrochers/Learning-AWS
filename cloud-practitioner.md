@@ -242,3 +242,9 @@ CodeGuru Reviewer, AI powered code reviews (static code analysis)
 CodeGuru Profiler, CPU and memory utilization (run time analysis), Minimal overhead  
 Service Health Dashboard, All services per region, Current status and history  
 Personal Health Dashboard, Ones we use only, Scheduled activities, Bell icon, View all alerts  
+
+## Virtual Private Cloud
+VPC, Private network (in region) with CIDR range (10.0.0.0/16), defaultVPC  
+Subnets with CIDR subrange (in AZ), Public or private (internet connectivity)  
+Internet Gateway, Connectivity to internet, Inside VPC, Route from public subnet  
+NAT Gateway, Outbound connectivity to internet, Inside public subnet, Route with private subnet  
