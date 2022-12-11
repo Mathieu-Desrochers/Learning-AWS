@@ -200,7 +200,7 @@ CNAME (host to host), Alias (host to AWS resource, ELB, CloudFront, RDS)
 Hosted zone with record set, Routing policies (per record)  
 Simple (no health check, all others yes), Weighted (load balancing like 70% 30%)  
 Latency (we specify region of IP), Failover (primary and secondary)  
-CloudFront, CDN, Caching proxy with TTL, At edge locations, Static content  
+CloudFront, CDN, Caching proxy with TTL, Static content at edge locations  
 Distribution with domain name (cloudfront.net)  
 Origin domain (S3 bucket URL, custom HTTP URL), Default root object  
 Origin access (public, Origin Access Control + S3 bucket policy)  
