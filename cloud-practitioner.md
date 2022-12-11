@@ -236,7 +236,7 @@ Event pattern (AWS service and event type), Schedule (cron or interval)
 Target (Lambda, SNS, SQS), Event buses (AWS, partner or custom)  
 CloudTrail, Logs all AWS API calls (from console, SDK, CLI), Enabled by default  
 Event history with events with username, time, full API request body  
-Console to inspect and audit, Export to CloudWatch or S3 for retention  
+CloudTrail Insight, Automated analysis, Export to CloudWatch or S3 for retention  
 X-Ray, Distributed tracing, Troubleshoot performance, Understand dependencies (graph)  
 CodeGuru Reviewer, AI powered code reviews (static code analysis)  
 CodeGuru Profiler, CPU and memory utilization (run time analysis), Minimal overhead  
