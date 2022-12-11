@@ -174,16 +174,6 @@ Creates CloudFormation stack with EC2 instances, Health monitoring with CloudWat
 Application with name, Platform (language/os), Code (upload), Public URL  
 Can edit configuration, Upload new code version, Multiple environments (dev/prod)  
 
-## Software Development
-Code Commit, Managed git repositories  
-Code Build, Compile code, Run tests, Build packages, Pay for build time  
-Code Artefact, Store dependencies and built packages (nuget, npm, pip)  
-Code Deploy, EC2 instances or on-premise, Upgrades versions, Requires Code Deploy Agent  
-Code Pipeline, Basis for CI/CD, orcherstration for the steps above  
-Code Star, All in one, Quick start with dashboard and best practices  
-Provisions Beanstalk with CloudFormation stack with EC2 instances  
-Cloud9, Browser IDE, Code and debug, Multi-users collaboration, Runs on EC2 instances  
-
 ## Systems Management
 SSM - Systems Manager, Manage fleet of computers, EC2 instances or on-premise  
 Patching, Running commands, Applying configuration, Windows and Linux  
@@ -212,6 +202,16 @@ Wavelength Zones, At the edge of 5G networks (us-east-1-wl1-bos-wlz-1, Boston)
 Architectures, Single region single AZ (easy), Multi AZ (high availability)  
 Multi regions active-passive (low read latency), Active-active (low write latency)  
 
+## Software Development
+Code Commit, Managed git repositories  
+Code Build, Compile code, Run tests, Build packages, Pay for build time  
+Code Artefact, Store dependencies and built packages (nuget, npm, pip)  
+Code Deploy, EC2 instances or on-premise, Upgrades versions, Requires Code Deploy Agent  
+Code Pipeline, Basis for CI/CD, orcherstration for the steps above  
+Code Star, All in one, Quick start with dashboard and best practices  
+Provisions Beanstalk with CloudFormation stack with EC2 instances  
+Cloud9, Browser IDE, Code and debug, Multi-users collaboration, Runs on EC2 instances  
+
 ## Decoupling Applications
 Synchronous vs asynchronous, Scale services independently  
 SQS - Standard Queue, Multiple producers and consumers (ASG based on queue length)  
@@ -221,3 +221,10 @@ Messages are received by all, Topic with name, Subscriptions (Lambda, HTTP, Emai
 MQ, Managed RabbitMQ or ActiveMQ (MQTT, AMQP), 3rd party alternatives to SQS and SNS  
 Kinesis, Real-time streams, Data Streams to ingest (100k sources)  
 Data Analytics to run SQL, Firehost to persist (S3, Redshift, Elastic Search)  
+
+## Monitoring
+CloudWatch, Metrics are produced by all AWS services  
+EC2 (Status check, CPU utilization), EBS (Number of reads, writes)  
+S3 (Bucket size in bytes), Billing (Estimated charges, only in us-east-1)
+Alarms with metric, Statistic over preriod (max, average, 5m)  
+Conditions (> 95%), Actions (EC2, ASG or SNS)  
