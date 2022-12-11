@@ -212,7 +212,7 @@ Wavelength Zones, At the edge of 5G networks (us-east-1-wl1-bos-wlz-1, Boston)
 Architectures, Single region single AZ (easy), Multi AZ (high availability)  
 Multi regions active-passive (low read latency), Active-active (low write latency)  
 
-## Decoupling Applications
+## Cloud Integrations
 Synchronous vs asynchronous, Scale services independently  
 SQS - Standard Queue, Multiple producers and consumers (ASG based on queue length)  
 Messages are received by one (must delete once processed), Retention (max 14d)  
