@@ -228,3 +228,6 @@ EC2 (Status check, CPU utilization), EBS (Number of reads, writes)
 S3 (Bucket size in bytes), Billing (Estimated charges, only in us-east-1)
 Alarms with metric, Statistic over preriod (max, average, 5m)  
 Conditions (> 95%), Actions (EC2, ASG or SNS)  
+Logs, Real-time monitoring, Can collect from Lambda, Beanstalk, ECS  
+EC2 by installing CloudWatch Logs Agent (with IAM role)  
+Log groups with retention, Streams, Events  
