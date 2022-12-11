@@ -210,7 +210,6 @@ S3 Transfer Acceleration, Download and upload to S3 bucket through edge location
 Global Accelerator, Internet until edge location, AWS network until resource  
 Get 2 Anycast IP to send traffic to edge locations  
 Outposts, On-premise server racks managed by AWS, Run AWS services locally  
-Regions have Availability Zones, Local Zones and Wavelength Zones  
 Local Zones, At a precise geographical location (us-east-1-bos-1, Boston)  
 Wavelength, At the edge of 5G networks (us-east-1-wl1-bos-wlz-1, Boston)  
 Architectures, Single region single AZ (easy), Multi AZ (high availability)  
