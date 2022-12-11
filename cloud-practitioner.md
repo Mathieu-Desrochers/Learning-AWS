@@ -251,3 +251,5 @@ NAT Gateway, Outbound connectivity to internet, Inside public subnet, Route from
 Route Tables, Inside VPC or subnet, Destination (172.31.0.0/16, 0.0.0.0/0), Target (local, gateway)  
 Network ACL, At subnet level, Allow and deny rules, IP only, Stateless  
 Security Groups, Assigned to EC2 instances, Allow rules only, IP or security groups, Stateful  
+VPC Flow Logs, Subnet Flow Logs, Capture IP traffic information, Diagnose connectivity issues  
+VPC Peering, Connect VPCs on AWS network, No CIDR overlap, Cross region or account, Not transitive  
