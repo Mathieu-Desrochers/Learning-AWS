@@ -242,4 +242,4 @@ CodeGuru Reviewer, AI powered code reviews (static code analysis)
 CodeGuru Profiler, CPU and memory utilization (run time analysis), Minimal overhead  
 Service Health Dashboard, All services per region, Current status and history  
 Personal Health Dashboard, Services we use only, Scheduled activities  
-Accessible through bell icon, Show all alerts  
+Accessible through bell icon, View all alerts  
