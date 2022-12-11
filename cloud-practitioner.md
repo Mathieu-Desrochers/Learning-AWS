@@ -214,10 +214,10 @@ Multi regions active-passive (low read latency), Active-active (low write latenc
 
 ## Decoupling Applications
 Synchronous vs asynchronous, Scale services independently  
-SQS - Standard Queue, Multiple consumers (ASG based on queue length), Retention (max 14d)  
-Messages are received by one (must delete once processed)  
+SQS - Standard Queue, Multiple producers and consumers (ASG based on queue length)  
+Messages are received by one (must delete once processed), Retention (max 14d)  
 SNS - Simple Notification Service, Multiple publishers and subscribers, No retention  
 Messages are received by all, Topic with name, Subscriptions (Lambda, HTTP, Email, Mobile)  
 Amazon MQ, Managed RabbitMQ or ActiveMQ (MQTT, AMQP), 3rd party alternatives to SQS and SNS  
 Kinesis, Real-time streams, Data Streams to ingest (100k sources)  
-Data Analytics to run SQL, Firehost to save (S3, Redshift, Elastic Search)  
+Data Analytics to run SQL, Firehost to persist (S3, Redshift, Elastic Search)  
