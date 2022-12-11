@@ -223,7 +223,7 @@ Kinesis, Real-time streams, Data Streams to ingest (100k sources)
 Data Analytics to run SQL, Firehost to persist (S3, Redshift, Elastic Search)  
 
 ## Monitoring
-CloudWatch Metrics, Produced by all AWS services  
+CloudWatch Metrics, Produced by all AWS services, Display in dashboards    
 EC2 (Status check, CPU utilization), EBS (Number of reads, writes)  
 S3 (Bucket size in bytes), Billing (Estimated charges, only in us-east-1)  
 CloudWatch Alarms with metric, Statistic over preriod (max, average, 5m)  
