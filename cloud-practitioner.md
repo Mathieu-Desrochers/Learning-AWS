@@ -241,5 +241,4 @@ X-Ray, Distributed tracing, Troubleshoot performance, Understand dependencies (g
 CodeGuru Reviewer, AI powered code reviews (static code analysis)  
 CodeGuru Profiler, CPU and memory utilization (run time analysis), Minimal overhead  
 Service Health Dashboard, All services per region, Current status and history  
-Personal Health Dashboard, Services we use only, Scheduled activities  
-Accessible through bell icon, View all alerts  
+Personal Health Dashboard, Ones we use only, Scheduled activities, Bell icon, View all alerts  
