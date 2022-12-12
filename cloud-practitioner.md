@@ -245,7 +245,7 @@ Personal Health Dashboard, Ones we use only, Scheduled activities, Bell icon, Vi
 
 ## Virtual Private Cloud
 VPC, Private network (in region) with CIDR range (172.31.0.0/16)  
-Subnets with CIDR subrange (in AZ), Public (visible from internet) or private  
+Subnets with CIDR subrange (in AZ), Public (accessible from internet) or private  
 Internet Gateway, Internet access, Inside VPC, Route from public subnet  
 NAT Gateway, Outbound internet access, Inside public subnet, Route from private subnet  
 Route Tables, VPC or subnet, Destination (172.31.0.0/16, 0.0.0.0/0), Target (local, gateway)  
