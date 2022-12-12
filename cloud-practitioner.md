@@ -256,4 +256,7 @@ VPC Peering, Connect VPCs on AWS network, No CIDR overlap, Cross region or accou
 VPN Endpoint, AWS services are accessed through internet even from AWS resources  
 Type gateway (S3, DynamoDB) or interface (all others), Provides access through AWS network  
 PrivateLink, Vendor VPC (Network load balancer), Consumer VPC (Elastic Network Interface), No peering  
-Site to Site VPN, On premise to VPC on internet, Direct Connect (DX), On private physical connection  
+Site to Site VPN, On premise to private VPC through internet  
+On-premise uses Customer Gateway (CGW), VPC uses Virtual Private Gateway (VGW)  
+Direct Connect (DX), On premise to private VPC through private physical connection  
+Client VPN, Use OpenVPN to connect to private VPC  
