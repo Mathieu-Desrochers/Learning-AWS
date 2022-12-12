@@ -252,7 +252,7 @@ Route Tables, VPC or subnet, Destination (172.31.0.0/16, 0.0.0.0/0), Target (loc
 Network ACL, At subnet level, Allow and deny rules, IP only, Stateless  
 Security Groups, Assigned to EC2 instances, Allow rules only, IP or security groups, Stateful  
 VPC Flow Logs, Subnet Flow Logs, Capture IP traffic information, Diagnose connectivity issues  
-VPC Peering, Connect VPCs on AWS network, No CIDR overlap, Cross region or account  
+VPC Peering, Connect VPCs on AWS network, No CIDR overlap, Cross region or account, Nontransitive  
 VPN Endpoint, AWS services are accessed through internet even from AWS resources  
 Of type Gateway (S3, DynamoDB) or interface (all others), Provides access through AWS network  
 PrivateLink, Vendor VPC (Network load balancer), Consumer VPC (Elastic Network Interface), No peering  
