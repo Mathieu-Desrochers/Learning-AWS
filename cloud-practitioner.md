@@ -260,4 +260,4 @@ Site to Site VPN, On premise to VPC through internet
 On-premise Customer Gateway (CGW), VPC Virtual Private Gateway (VGW)  
 Direct Connect (DX), On premise to VPC through private physical connection  
 Client VPN, Use OpenVPN to connect to VPC  
-Transit Gateway, Simpler hub-and-spoke connection, Supports 1000s VPC peering, VPN and DX  
+Transit Gateway, Simpler hub-and-spoke connection, Supports 1000s VPCs, VPN and DX  
