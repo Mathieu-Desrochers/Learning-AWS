@@ -257,7 +257,7 @@ VPN Endpoint, AWS services are accessed through internet even from AWS resources
 Of type Gateway (S3, DynamoDB) or interface (all others), Provides access through AWS network  
 PrivateLink, Vendor VPC (Network load balancer), Consumer VPC (Elastic Network Interface), No peering  
 Site to Site VPN, On premise to VPC through internet  
-On-premise uses Customer Gateway (CGW), VPC uses Virtual Private Gateway (VGW)  
+On-premise Customer Gateway (CGW), VPC Virtual Private Gateway (VGW)  
 Direct Connect (DX), On premise to VPC through private physical connection  
 Client VPN, Use OpenVPN to connect to VPC  
 Transit Gateway, Simpler hub-and-spoke connections, Supports VPC peering, VPN and DX  
