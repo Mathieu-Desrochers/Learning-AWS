@@ -254,7 +254,7 @@ Security Groups, Assigned to EC2 instances, Allow rules only, IP or security gro
 VPC Flow Logs, Subnet Flow Logs, Capture IP traffic information, Diagnose connectivity issues  
 VPC Peering, Connect VPCs on AWS network, No CIDR overlap, Cross region or account  
 VPN Endpoint, AWS services are accessed through internet even from AWS resources  
-Gateway (S3, DynamoDB) or interface (all others), Provides access through AWS network  
+Of type Gateway (S3, DynamoDB) or interface (all others), Provides access through AWS network  
 PrivateLink, Vendor VPC (Network load balancer), Consumer VPC (Elastic Network Interface), No peering  
 Site to Site VPN, On premise to VPC through internet  
 On-premise uses Customer Gateway (CGW), VPC uses Virtual Private Gateway (VGW)  
