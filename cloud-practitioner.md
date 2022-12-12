@@ -245,9 +245,9 @@ Personal Health Dashboard, Ones we use only, Scheduled activities, Bell icon, Vi
 
 ## Virtual Private Cloud
 VPC, Private network (in region) with CIDR range (172.31.0.0/16), defaultVPC  
-Subnets with CIDR subrange (in AZ), Public or private (whether accessible from internet)  
-Internet Gateway, Inbound and outbound internet access, Inside VPC, Route from public subnet  
-NAT Gateway, Outbound internet access, Inside public subnet, Route from private subnet  
+Subnets with CIDR subrange (in AZ), Public or private  
+Internet Gateway, Internet access (in and out), Inside VPC, Route from public subnet  
+NAT Gateway, Internet access (out), Inside public subnet, Route from private subnet  
 Route Tables, VPC or subnet, Destination (172.31.0.0/16, 0.0.0.0/0), Target (local, gateway)  
 Network ACL, At subnet level, Allow and deny rules, IP only, Stateless  
 Security Groups, Assigned to EC2 instances, Allow rules only, IP or security groups, Stateful  
