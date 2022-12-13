@@ -81,8 +81,7 @@ Has security group, Target group (EC2 instances), Health checks to ignore failed
 Application (Layer 7 HTTP/S gRPC), Static URL, HTTP routing, SSL termination  
 Network (Layer 4 TCP UDP), Static IP, High performance  
 Gateway (Layer 3 GENEVE), Filter traffic through 3rd party security applicances  
-ASG - Automatic Scaling Groups  
-Automatic horizontal scaling based on minimum, desired and maximum capacity  
+ASG - Automatic Scaling Groups, Horizontal scaling based on minimum, desired and maximum capacity  
 Registers instances to ELB, Replaces unhealthy instances  
 Has launch template (EC2 instances configuration), Scaling policy  
 Dynamic: Simple / Step (when CPU > 70% add 2), Target tracking (keep average CPU at 40%), Scheduled  
