@@ -76,8 +76,7 @@ Uses build and test EC2 instances, Creates AMI image
 Scability can handle bigger loads  
 Horizontal (in/out) more instances, Vertical (up/down) bigger instances  
 Elasticity automatic scaling, High availability instances in multiple AZ  
-ELB - Elastic Load Balancer  
-Single point of access, Spread load across downstream instances  
+ELB - Elastic Load Balancer, Single point of access, Spread load across downstream instances  
 Has security group, Target group (EC2 instances), Health checks to ignore failed instances  
 Application (Layer 7 HTTP/S gRPC), Static URL, HTTP routing, SSL termination  
 Network (Layer 4 TCP UDP), Static IP, High performance  
