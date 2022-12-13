@@ -267,4 +267,4 @@ Shared Responsability Model, AWS security of the cloud, Customer security in the
 Shield, DDoS protection, Common TCP attacks (layer 4), Route 53, CloudFront, Security groups  
 Standard (free), Advanced (3k/month, sophisticated attacks, response team, spike fees not charged)  
 WAF - Web Application Firewall, Common HTTP attacks (layer 7), CloudFront, API Gateway, Load Balancer  
-Rules for IP, headers, body, uri, SQL injection, Cross Site Scripting, geo-match, rates)  
+Rules for IP, headers, body, uri, SQL injection, Cross-Site Scripting, geo-match, rates)  
