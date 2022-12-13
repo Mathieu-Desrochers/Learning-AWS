@@ -264,7 +264,7 @@ Transit Gateway, Simpler hub-and-spoke connection, Supports 1000s VPCs, VPN and 
 
 ## Security and Compliance
 Shared Responsability Model, AWS security of the cloud, Customer security in the cloud  
-Distributed Denial of Service (DDoS), Protection at Route 53, CloudFront, API Gateway, Load Balancer  
+Distributed Denial of Service (DDoS), Protection at Route 53, CloudFront, API Gateway, ELB  
 Shield, Common TCP attacks (layer 4), Standard (free)  
 Advanced (3k/month, sophisticated attacks, response team, spike fees not charged)  
 WAF - Web Application Firewall, Common HTTP attacks (layer 7)  
