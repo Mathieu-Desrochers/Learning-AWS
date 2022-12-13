@@ -74,7 +74,7 @@ Uses build and test EC2 instances, Creates AMI image
 
 ## Scability, Elasticity and High Availability
 Scability can handle bigger loads  
-Horizontal (in/out) more instances, Vertical (up/down) bigger instances  
+Horizontal (in / out) more instances, Vertical (up/down) bigger instances  
 Elasticity automatic scaling, High availability instances in multiple AZ  
 ELB - Elastic Load Balancer, Single point of access, Spread load across downstream instances  
 Has security group, Target group (EC2 instances), Health checks to ignore failed instances  
@@ -84,14 +84,14 @@ Gateway (Layer 3 GENEVE), Filter traffic through 3rd party security applicances
 ASG - Automatic Scaling Groups, Horizontal scaling based on minimum, desired and maximum capacity  
 Registers instances to ELB, Replaces unhealthy instances  
 Has launch template (EC2 instances configuration), Scaling policy  
-Dynamic: Simple / Step (when CPU > 70% add 2), Target tracking (keep average CPU at 40%), Scheduled  
-Predictive (machine learning to detect pattern, provision in advance)  
+Dynamic: Simple / Step (when CPU > 70% add 2), Target tracking (keep average CPU at 40%)  
+Scheduled, Predictive (machine learning to detect pattern, provision in advance)  
 
 ## S3 - Object Storage
 Backups, Static website, Software delivery, Media hosting, Data lakes  
 Bucket, Globally unique name, Scoped to region  
 Object with key (my-object.txt), Can simulate folders with prefix (my-folder/my-object.txt)   
-Value (max 5TB, multi-part upload 5GB), Metadata (key/value pairs), Version ID  
+Value (max 5TB, multi-part upload 5GB), Metadata (key / value pairs), Version ID  
 URL (https://my-bucket.s3.ca-central-1.amazonaws.com/my-object.txt), Can be presigned  
 Security with IAM policies, IAM roles, Bucket policies  
 Allow, s3:GetObject, arn:aws:s3:::my-bucket/\*, Principal (* for public access)  
@@ -158,18 +158,18 @@ Increasing RAM also increase CPU and network, All languages, Lambda Container Im
 Function with code, test events, timeout (max 15m), IAM role (for CloudWatch logs)  
 API Gateway, REST or websocket, Authentication and Authorization, API Keys, Throttling, Can expose lambdas  
 Batch, Automatically provision EC2 instances (can be spot), Jobs as docker images, Runs on ECS  
-Lightsail, Baby alternative to EC2/EBS/RDS, Templates for LAMP, Node.js, WordPress  
+Lightsail, Baby alternative to EC2 / EBS/ RDS, Templates for LAMP, Node.js, WordPress  
 
 ## Managing Infrastructure at Scale
 CloudFormation, Declarative, Infrastructure as code, Nice for source control  
-Provisions in the right order, Easy to delete/recreate for costs saving, Diagrams  
-Stack with name, Template for resources (json/yaml), Parameters (!Ref Color)  
+Provisions in the right order, Easy to delete / recreate for costs saving, Diagrams  
+Stack with name, Template for resources (json / yaml), Parameters (!Ref Color)  
 Apply updates with changet preview, Events (create_in_progress, create_complete)  
 CDK - Cloud Development Kit, Infrastructure in programming language  
-If/Loop/Functions, Compiled by CDK CLI to json/yaml  
+If/Loop/Functions, Compiled by CDK CLI to json / yaml  
 Beanstalk, Runs code on typical architectures (LB + ASG + RDS), PaaS  
 Creates CloudFormation stack with EC2 instances, Health monitoring with CloudWatch  
-Application with name, Platform (language/os), Code (upload), Public URL  
+Application with name, Platform (language / os), Code (upload), Public URL  
 Can edit configuration, Upload new code version, Multiple environments (dev/prod)  
 
 ## Software Development
