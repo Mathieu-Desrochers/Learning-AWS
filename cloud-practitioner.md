@@ -243,7 +243,7 @@ CodeGuru Profiler, CPU and memory utilization (run time analysis), Minimal overh
 Service Health Dashboard, All services per region, Current status and history  
 Personal Health Dashboard, Ones we use only, Scheduled activities, Bell icon, View all alerts  
 
-## Virtual Private Cloud
+## Networking
 VPC, Private network (in region) with CIDR range (172.31.0.0/16)  
 Subnets with CIDR subrange (in AZ), Public (accessible from internet) or private  
 Internet Gateway, Internet access, Inside VPC, Route from public subnet  
@@ -254,10 +254,17 @@ Security Groups, Assigned to EC2 instances, Allow rules only, IP or security gro
 VPC Flow Logs, Subnet Flow Logs, Capture IP traffic information, Diagnose connectivity issues  
 VPC Peering, Connect VPCs on AWS network, No CIDR overlap, Cross region or account, Nontransitive  
 VPN Endpoint, AWS services are accessed through internet even from AWS resources  
-Of type Gateway (S3, DynamoDB) or interface (all others), Provides access through AWS network  
+Type (gateway for S3 and DynamoDB, interface for all others), Provides access through AWS network  
 PrivateLink, Vendor VPC (Network load balancer), Consumer VPC (Elastic Network Interface), No peering  
 Site to Site VPN, On premise to VPC through internet  
 On-premise Customer Gateway (CGW), VPC Virtual Private Gateway (VGW)  
 Direct Connect (DX), On premise to VPC through private physical connection  
 Client VPN, Use OpenVPN from computer to connect to VPC  
 Transit Gateway, Simpler hub-and-spoke connection, Supports 1000s VPCs, VPN and DX  
+
+## Security and Compliance
+Shared Responsability Model, AWS security of the cloud, Customer security in the cloud  
+Shield, DDoS protection, Common TCP attacks (layer 4), Route 53, CloudFront, Security groups  
+Standard (free), Advanced (3k/month, sophisticated attacks, response team, spike fees not charged)  
+WAF - Web Application Firewall, Common HTTP attacks (layer 7), Load Balancer, API Gateway, CloudFront  
+Rules for IP, headers, body, uri, SQL injection, Cross Site Scripting, geo-match, rates)  
