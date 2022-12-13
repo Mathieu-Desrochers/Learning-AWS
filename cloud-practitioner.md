@@ -267,3 +267,4 @@ Shield, Common TCP attacks (layer 4), Standard (free, activated all accounts)
 Advanced (3k / month, sophisticated attacks, response team, spike fees not charged)  
 WAF - Web Application Firewall, Common HTTP attacks (layer 7)  
 Rules on IP, headers, body, uri, SQL injection, Cross-Site Scripting, geo-match, rates  
+Penetration testing, Allowed on some services, No prohibited activities (DDoS, flooding)  
