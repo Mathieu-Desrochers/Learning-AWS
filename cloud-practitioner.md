@@ -268,3 +268,7 @@ Advanced (3k / month, sophisticated attacks, response team, spike fees not charg
 WAF - Web Application Firewall, Common HTTP attacks (layer 7)  
 Rules on IP, headers, body, uri, SQL injection, Cross-Site Scripting, geo-match, rates  
 Penetration testing, Allowed on some services, No prohibited activities (DDoS, flooding)  
+KMS - Key Management Service, Customer Master Keys, Some services opt-in or mandatory  
+AWS Managed Keys, Default key per service (aws/ebs, aws/sns), Free, We don't know them  
+Customer Managed Keys, With type (symmetric, asymmetric), Origin (KMS, External, CloudHSM), Rotation  
+Custom Key Store, CloudHMS (Hardware Secret Module), Managed with CloudHSM client  
