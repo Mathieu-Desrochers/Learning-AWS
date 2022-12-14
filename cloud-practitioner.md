@@ -117,7 +117,7 @@ Lifecycle rule with filter (all), Transitions (after x day goto class y)
 Encryption (None, Server-Side, Client-Side)  
 Storage Gateway, Extend on-premise storage to S3  
 
-## Snow Family - Physical Devices
+## Physical Devices
 Large scale data transport (in and out, S3 interface)  
 Edge computing (personal offline cloud, EC2 instances)  
 AWS OpsHub, Desktop application for management  
@@ -126,7 +126,7 @@ Snowball Edge Storage Optimized (80TB, 40 vCPUs, 80GB memory)
 Snowball Edge Compute Optimized (42TB, 52 vCPUs, 208GB memory, GPU)  
 Snowmobile (100PB), Actual truck  
 
-## Databases - Structured Data
+## Databases
 Relational, Tables, References, OLTP, SQL  
 NoSQL, Flexible schema, Key-Value, Document, Graph, In-Memory, Search, JSON  
 RDS - Relational Database Service, Postgres, MySql, MariaDB, Oracle, SQL Server  
