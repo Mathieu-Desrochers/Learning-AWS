@@ -275,3 +275,4 @@ Custom Key Store, CloudHSM (Hardware Secret Module), Managed with CloudHSM clien
 ACM - AWS Certificate Manager, SSL / TLS certificates, Public / Private, Automatic renewal  
 Secrets Manager, Store secrets, Type RDS (username / password / which database)  
 Type other (key / value pairs or plaintext), Automatic rotation (x days), Can retrieve by API calls  
+AWS Artifact, Donwload compilance documents, Reports (ISO, PCI, SOC), Agreements (BAA, HIPAA)  
