@@ -273,3 +273,5 @@ AWS Managed Keys, Default key per service (aws/ebs, aws/sns), Free, We don't kno
 Customer Managed Keys, With type (symmetric, asymmetric), Origin (KMS, external, CloudHSM), Rotation  
 Custom Key Store, CloudHMS (Hardware Secret Module), Managed with CloudHSM client  
 ACM - AWS Certificate Manager, SSL/TLS certificates, Public / Private, Automatic renewal  
+Secrets Manager, Store secrets, Type RDS (username / password / which database)  
+Type other (key / value pairs or plaintext), Automatic rotation (x days), Can retrieve by API calls  
