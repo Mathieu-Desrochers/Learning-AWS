@@ -117,7 +117,7 @@ Lifecycle rule with filter (all), Transitions (after x day goto class y)
 Encryption (None, Server-Side, Client-Side)  
 Storage Gateway, Extend on-premise storage to S3  
 
-## Physical Devices
+## Snow Family - Physical Devices
 Large scale data transport (in and out, S3 interface)  
 Edge computing (personal offline cloud, EC2 instances)  
 AWS OpsHub, Desktop application for management  
