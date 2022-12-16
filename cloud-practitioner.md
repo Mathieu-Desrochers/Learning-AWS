@@ -97,15 +97,11 @@ Security with IAM policies, IAM roles, Bucket policies
 Allow, s3:GetObject, arn:aws:s3:::my-bucket/\*, Principal (* for public access)  
 Bucket policies can allow cross account access, ACL at bucket or object level  
 Block all public access, Safety at bucket or account level, Overrules everything  
-Static website hosting, Index document, Error document  
-Bucket website endpoint (s3-website.ca-central-1.amazonaws.com)  
-Versioning with string IDs (xqkPZ...4P), Latest is returned  
-Overriting key creates new object with bumped version  
-Deleting adds delete marker version, can delete it to undelete  
-Deleting version rollbacks to previous one  
+Static website hosting, Index document, Error document, s3-website.ca-central-1.amazonaws.com  
+Versioning with string IDs (xqkPZ...4P), Overriting key creates new version  
+Deleting adds delete marker version, Deleting version rollbacks to previous one  
 Replication, Cross-region replicaton (CRR), Same-region replication (SRR)  
-Must enable versioning, Is asynchronous  
-Replication rule with source, Filter (all), Destination, IAM role  
+Rule with source, Filter (all), Destination, Must enable versioning, Is asynchronous  
 Storage classes, Per object, Anything but Standard has retrieval fee, Cost more per GET/POST  
 Standard Infrequent Access (IA), Instant retrieval  
 One-Zone Infrequent Access (IA), Instant retrieval, Cheaper, Less availability  
