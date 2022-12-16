@@ -39,7 +39,7 @@ On demand, Pay per second, Short workload
 Reserved instances -72%, 1 or 3 years, Commit to instance attributes (type, region, tenancy, os)  
 Convertible allows attributes change  
 Saving plans -72%, 1 or 3 years, Commit to amount per hour, Above is on demand  
-Spot instances -90%, lost if max price below spot  
+Spot instances -90%, Lost if max price below spot  
 Dedicated Host, Access to physical server, Compliance or server bound licences, Most expensive  
 Dedicated Instances, Instances on hardware not shared with other accounts  
 Capacity Reservation, Guaranteed availability in AZ for duration, Pay use or not  
