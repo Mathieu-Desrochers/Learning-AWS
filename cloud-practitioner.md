@@ -270,7 +270,7 @@ ACM - AWS Certificate Manager, SSL / TLS certificates, Public / Private, Automat
 Secrets Manager, Store secrets, Type RDS (username / password / which database)  
 Type other (key / value pairs or plaintext), Automatic rotation (x days), Can retrieve by API calls  
 AWS Artifact, Download compilance documents, Reports (ISO, PCI, SOC), Agreements (BAA, HIPAA)  
-GuardDuty, AI analysing CloudTrail, VPC Flow, DNS logs to detect anomalies (also CryptoCurrency attacks)  
+GuardDuty, AI analysing logs (CloudTrail, VPC Flow, DNS) to detect anomalies (also CryptoCurrency attacks)  
 Inspector, Automatic security assessments, Packages CVE, Network reachability, EC2, ECR and Lambda  
 AWS Config, Audits configuration of resources over time, With resource type  
 Rules (restricted-ssh, s3-bucket-public-read-prohibited), Report of non-compliant resources  
