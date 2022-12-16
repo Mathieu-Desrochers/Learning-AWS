@@ -277,5 +277,5 @@ Rules (restricted-ssh, s3-bucket-public-read-prohibited), Report of non-complian
 Macie, Scans S3 buckets for personally identifiable information (PII)  
 Security Hub, Dashboard to aggregate GuardDuty, Inspector, Macie from multiple accounts  
 Detective, Identifies root cause of security issues, Feeds from sources above  
-AWS Abuse, Report AWS resources for Spam, port scanning, DDoS, intrusion attempts, content  
+AWS Abuse, Report AWS resources for spam, port scanning, DDoS, intrusion attempts, content  
 Root User Provileges, Change account settings (email, password), Close account, Change support plan  
