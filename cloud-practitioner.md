@@ -226,7 +226,7 @@ Log groups with streams with events, Retention
 EventBridge, React to events, Rule with name, Source type  
 Event pattern (AWS service and event type), Schedule (cron or interval)  
 Target (Lambda, SNS, SQS), From event buses (AWS, partner or custom)  
-CloudTrail, Logs all AWS API calls (from console, SDK, CLI), Enabled by default  
+CloudTrail, Logs API calls by users (from console, SDK, CLI), Enabled by default  
 Event history with events with username, time, full API request body  
 CloudTrail Insight, Automated analysis, Export to CloudWatch or S3 for retention  
 X-Ray, Distributed tracing, Troubleshoot performance, Understand dependencies (graph)  
@@ -261,21 +261,21 @@ Common TCP attacks (layer 4), Standard (free, activated all accounts)
 Advanced (3k / month, sophisticated attacks, response team, spike fees not charged)  
 WAF - Web Application Firewall, Common HTTP attacks (layer 7)  
 Rules on IP, headers, body, URI, SQL injection, Cross-Site Scripting, geo-match, rates  
-Penetration testing, Allowed on some services, No prohibited activities (DDoS, flooding)  
+Penetration testing, Allowed on some services, But no prohibited activities (DDoS, flooding)  
 KMS - Key Management Service, Customer Master Keys, Some services opt-in or required  
 AWS Managed Keys, Default key per service (aws/ebs, aws/sns), Free, We don't know them  
 Customer Managed Keys, With type (symmetric, asymmetric), Origin (KMS, external, CloudHSM), Rotation  
-Custom Key Store, CloudHSM (Hardware Secret Module), Managed with CloudHSM client  
+Custom Key Store, CloudHSM (Hardware Secret Module), We manage keys with CloudHSM client  
 ACM - AWS Certificate Manager, SSL / TLS certificates, Public / Private, Automatic renewal  
 Secrets Manager, Store secrets, Type RDS (username / password / which database)  
 Type other (key / value pairs or plaintext), Automatic rotation (x days), Can retrieve by API calls  
 AWS Artifact, Download compilance documents, Reports (ISO, PCI, SOC), Agreements (BAA, HIPAA)  
 GuardDuty, AI analysing logs (CloudTrail, VPC Flow, DNS) to detect anomalies (also CryptoCurrency attacks)  
-Inspector, Automatic security assessments, Packages CVE, Network reachability, EC2, ECR and Lambda  
-AWS Config, Audits configuration of resources over time, With resource type  
+Inspector, Automatic security assessments using SSM, Packages CVE, Network reachability, EC2, ECR and Lambda  
+AWS Config, Track configuration compliance over time, With resource type  
 Rules (restricted-ssh, s3-bucket-public-read-prohibited), Report of non-compliant resources  
 Macie, Scans S3 buckets for personally identifiable information (PII)  
-Security Hub, Dashboard to aggregate GuardDuty, Inspector, Macie, Cross account  
+Security Hub, Dashboard to aggregate GuardDuty, Inspector, Macie from multiple accounts  
 Detective, Identifies root cause of security issues, Feeds from sources above  
 AWS Abuse, Report AWS resources for Spam, port scanning, DDoS, intrusion attempts, content  
 Root User Provileges, Change account settings (email, password), Close account, Change support plan  
