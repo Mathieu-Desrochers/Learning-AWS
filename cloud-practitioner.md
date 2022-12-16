@@ -231,7 +231,7 @@ Beanstalk, ECS, EC2 by installing CloudWatch Logs Agent (with IAM role)
 Log groups with streams with events, Retention  
 EventBridge, React to events, Rule with name, Source type  
 Event pattern (AWS service and event type), Schedule (cron or interval)  
-Target (Lambda, SNS, SQS), Event buses (AWS, partner or custom)  
+Target (Lambda, SNS, SQS), From event buses (AWS, partner or custom)  
 CloudTrail, Logs all AWS API calls (from console, SDK, CLI), Enabled by default  
 Event history with events with username, time, full API request body  
 CloudTrail Insight, Automated analysis, Export to CloudWatch or S3 for retention  
