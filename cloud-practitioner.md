@@ -98,8 +98,7 @@ Allow, s3:GetObject, arn:aws:s3:::my-bucket/\*, Principal (* for public access)
 Bucket policies can allow cross account access, ACL at bucket or object level  
 Block all public access, Safety at bucket or account level, Overrules everything  
 Static website hosting, Index document, Error document, s3-website.ca-central-1.amazonaws.com  
-Versioning with string IDs (xqkPZ...4P), Overriting key creates new version  
-Deleting adds delete marker version, Deleting version rollbacks to previous one  
+Versioning with string IDs (xqkPZ...4P), Deleting adds delete marker version  
 Replication, Cross-region replicaton (CRR), Same-region replication (SRR)  
 Rule with source, Filter (all), Destination, Must enable versioning, Is asynchronous  
 Storage classes, Per object, Anything but Standard has retrieval fee, Cost more per GET/POST  
