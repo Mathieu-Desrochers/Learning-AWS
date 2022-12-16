@@ -243,14 +243,13 @@ NAT Gateway, Outbound internet access, Inside public subnet, Route from private 
 Route Tables, VPC or subnet, Destination (172.31.0.0/16, 0.0.0.0/0), Target (local, gateway)  
 Network ACL, At subnet level, Allow and deny rules, IP only, Stateless  
 Security Groups, Assigned to EC2 instances, Allow rules only, IP or security groups, Stateful  
-VPC Flow Logs, Subnet Flow Logs, Capture IP traffic information, Diagnose connectivity issues  
+VPC Flow Logs, Capture IP traffic information, Diagnose connectivity issues  
 VPC Peering, Connect VPCs on AWS network, No CIDR overlap, Cross region or account, Nontransitive  
 VPN Endpoint, AWS services are accessed through internet even from AWS resources  
 Type (gateway for S3 and DynamoDB, interface for all others), Provides access through AWS network  
 PrivateLink, Vendor VPC (Network load balancer), Consumer VPC (Elastic Network Interface), No peering  
-Site to Site VPN, On premise to VPC through internet  
-On-premise Customer Gateway (CGW), VPC Virtual Private Gateway (VGW)  
-Direct Connect (DX), On premise to VPC through private physical connection  
+Site to Site VPN, Through internet, Customer Gateway (CGW) to Virtual Private Gateway (VGW)  
+Direct Connect (DX), Through private physical connection  
 Client VPN, Use OpenVPN from computer to connect to VPC  
 Transit Gateway, Simpler hub-and-spoke connection, Supports 1000s VPCs, VPN and DX  
 
