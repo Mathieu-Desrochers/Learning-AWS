@@ -275,3 +275,7 @@ Inspector, Automatic security assessments, Packages CVE, Network reachability, E
 AWS Config, Audits configuration of resources over time, With resource type  
 Rules (restricted-ssh, s3-bucket-public-read-prohibited), Report of non-compliant resources  
 Macie, Scans S3 buckets for personally identifiable information (PII)  
+Security Hub, Dashboard to aggregate GuardDuty, Inspector, Macie, Cross account  
+Detective, Identifies root cause of security issues, Feeds from sources above  
+AWS Abuse, Report AWS resources for Spam, port scanning, DDoS, intrusion attempts, content  
+Root User Provileges, Change account settings (email, password), Close account, Change support plan  
