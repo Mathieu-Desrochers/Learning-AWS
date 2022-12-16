@@ -92,7 +92,7 @@ Backups, Static website, Software delivery, Media hosting, Data lakes
 Bucket, Globally unique name, Scoped to region  
 Object with key (my-object.txt), Can simulate folders with prefix (my-folder/my-object.txt)   
 Value (max 5TB, multi-part upload 5GB), Metadata (key / value pairs)  
-URL (https://my-bucket.s3.ca-central-1.amazonaws.com/my-object.txt), Can be presigned  
+URL (https://bucket.s3.ca-central-1.amazonaws.com/object.txt), Can be presigned  
 Security with IAM policies, IAM roles, Bucket policies  
 Allow, s3:GetObject, arn:aws:s3:::my-bucket/\*, Principal (* for public access)  
 Bucket policies can allow cross account access, ACL at bucket or object level  
