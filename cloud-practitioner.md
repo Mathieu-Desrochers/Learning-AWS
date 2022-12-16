@@ -280,3 +280,11 @@ AWS Abuse, Report AWS resources for spam, port scanning, DDoS, intrusion attempt
 Root User Provileges, Change email or password, Close account, Change support plan, Marketplace  
 
 ## Machine Learning
+Rekognition, Find people, text or objects in images or videos  
+Transcribe, Speech to text, Automatic language identification, Can automatically strip PII  
+Polly, Text to speech, Neural (most human like) or standard, Voice selection  
+Translate, Natural and accurate text translation  
+Lex, Tecnhology behind Alexa, Speech recognition and language understanding  
+Connect, Virtual contact center, Bots accepting phone calls  
+Comprehend, Natural Language Processing (NLP), Finds language, key phrases, sentiment, topic  
+SameMaker, 
