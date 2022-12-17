@@ -324,3 +324,4 @@ Enterprise On-Ramp 5500$ (critical, technical account managers, concierge suppor
 Enterpsise 15000$ (mission critical, designated technical account manager, 24h/12h/4h/1h/15m)  
 
 ## Advanced Identity
+STS - Security Token Service, 
