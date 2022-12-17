@@ -196,6 +196,7 @@ Latency (we specify region of IP), Failover (primary and secondary)
 CloudFront, CDN, Caching proxy with TTL, Static content at edge locations  
 Distribution with domain name (cloudfront.net), Origin domain (S3 bucket URL, custom HTTP URL)  
 Origin access (public, Origin Access Control + S3 bucket policy), DDoS protection with WAF and Shield  
+Pay per TBs / month, number of HTTP requests, Varies by continent  
 S3 Transfer Acceleration, Download and upload to S3 bucket through edge locations  
 Global Accelerator, Internet until edge location, AWS network until resource  
 Provides 2 Anycast IP to send traffic to edge locations  
@@ -253,6 +254,7 @@ Site to Site VPN, Through internet, Customer Gateway (CGW) to Virtual Private Ga
 Direct Connect (DX), Through private physical connection  
 Client VPN, Use OpenVPN from computer to connect to VPC  
 Transit Gateway, Simpler hub-and-spoke connection, Supports 1000s VPCs, VPN and DX  
+Pay for traffic, Free in, Free out same AZ, Paid out other AZ (cheaper on private IP)  
 
 ## Security and Compliance
 Shared Responsability Model, AWS security of the cloud, Customer security in the cloud  
