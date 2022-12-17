@@ -313,6 +313,12 @@ Cost and Usage Report, Most comprehensive information (CSV file), Services, IAM 
 Cost Allocation Tags, Use tags for filtering and grouping in Cost Explorer  
 Cost Optimizer, Recommend optimal AWS resources based on workloads (EC2, ASG, EBS, Lambda)  
 Budgets, With type (cost, usage, reservation), Amount, Filters, Alerts (actual, forecasted, treshold %)  
-Trusted Advisor, High level account checks, Core ones free Basic and Developer support plans  
+Trusted Advisor, High level account checks, Core free for Basic and Developer support plans  
 5 categories (cost optimization, performance, security, fault tolerance, service limits)  
 7 core checks (S3, security groups, IAM not root, MFA on root, EBS snapshots, RDS snapshots, service limits)  
+Support plans, Response times, General guidance, System impaired  
+Production system impaired, Production system down, Business critical system down  
+Basic, Developer 29$ (business hours email support, primary contact, 24h/12h)  
+Business 100$ (production, (24/7 phone, email, chat support, business support engineers, 24h/12h/4h/1h)  
+Enterprise On-Ramp 5500$ (critical, technical account managers, concierge support team, 24h/12h/4h/1h/30m)  
+Enterpsise 15000$ (mission critical, designated technical account manager, 24h/12h/4h/1h/15m)  
