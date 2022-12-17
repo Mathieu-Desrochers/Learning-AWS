@@ -6,7 +6,7 @@ OPEX, Economies of scale, Capacity, Agility, No data centers, Global
 IaaS, PaaS, Saas, Virtualization | OS, Runtime | Data  
 Pay compute time, data stored, network out  
 Regions, Availability Zones, Data centers, Edge locations (2-6 DC per AZ)  
-Chose for Compliance, Proximity, Available services, Pricing  
+Choose for Compliance, Proximity, Available services, Pricing  
 Shared Responsability Principle, Acceptable Use Policy  
 
 ## IAM - Identity and Access Management
@@ -298,3 +298,5 @@ Organizations, Manage multiple accounts, Consolidated billing, Volume discounts,
 Organization Units (OU), Root contains master account, Can be nested, Contains child accounts  
 Service Control Policies (SCP), Applies to OU or account (but not master), Same syntax IAM policies  
 SCP Hierarchy, Inheritance from OU to account, Denies cannot be allowed deeper  
+Control Tower, Automatic organizations, Landing zone with master, log and audit accounts, SSO to all  
+Controls (guardrails), Automatic SCP, Report of non-compliant OUs  
