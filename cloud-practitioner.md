@@ -37,9 +37,8 @@ Security groups can allow other security groups, instead of IP
 21 FTP, 22 SSH SFTP, 80 HTTP, 443 HTTPS, 3389 RDP  
 On demand, Pay per second, Short workload  
 Reserved instances -72%, 1 or 3 years, Commit to instance attributes (type, region, tenancy, os)  
-Convertible allows attributes change  
 Saving plans -72%, 1 or 3 years, Commit to amount per hour, Above is on demand  
-Spot instances -90%, Lost if max price below spot  
+Spot instances -90%, Bid on unused instances, Lost if max price below spot  
 Dedicated Host, Access to physical server, Compliance or server bound licences, Most expensive  
 Dedicated Instances, Instances on hardware not shared with other accounts  
 Capacity Reservation, Guaranteed availability in AZ for duration, Pay use or not  
@@ -100,7 +99,8 @@ Static website hosting, Index document, Error document, s3-website.ca-central-1.
 Versioning with string IDs (xqkPZ...4P), Deleting adds delete marker version  
 Replication, Cross-region replicaton (CRR), Same-region replication (SRR)  
 Rule with source, Filter (all), Destination, Must enable versioning, Is asynchronous  
-Storage classes, Per object, Anything but Standard has retrieval fee, Cost more per GET/POST  
+Pay per number / size of objects, number of requests, data transfered out  
+Storage classes, Per object, Anything but Standard has retrieval fee  
 Standard Infrequent Access (IA), Instant retrieval  
 One-Zone Infrequent Access (IA), Instant retrieval, Cheaper, Less availability  
 Glacier Instant Retrieval, Instant retrieval  
@@ -145,7 +145,7 @@ DMS - Database Migration Service, Runs on EC2 instances, Homogeneous or Heteroge
 ## Other Compute Services
 ECS - Elastic Container Service, Runs docker, Must provision EC2 instances  
 Starts, stops and spreads containers, Integrates with Application Load Balancer  
-Fargate, Serverless, No EC2 instances to manage, Based on needed CPU/RAM  
+Fargate, Serverless, No EC2 instances to manage, Pay based on allocated vCPU / RAM  
 ECR - Elastic Container Registry, Private docker images registry  
 Lambda, Event driven, Pay per calls and duration (in GBs, RAM * seconds)  
 Increasing RAM also increase CPU and network, All languages, Lambda Container Image  
@@ -300,3 +300,4 @@ Service Control Policies (SCP), Applies to OU or account (but not master), Same 
 SCP Hierarchy, Inheritance from OU to account, Denies cannot be allowed deeper  
 Control Tower, Automatic organizations, Landing zone with master, log and audit accounts, SSO to all  
 Controls (guardrails), Automatic SCP, Report of non-compliant OUs  
+Pricing models, Pay as you go, Save when you reserve, Pay less by using more, Pay less as AWS grows  
