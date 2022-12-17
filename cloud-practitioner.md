@@ -36,8 +36,7 @@ Protocol, IP Range, Port Range, Multiple EC2 instances to multiple security grou
 Security groups can allow other security groups, instead of IP  
 21 FTP, 22 SSH SFTP, 80 HTTP, 443 HTTPS, 3389 RDP  
 On demand, Pay per second, Short workload  
-Reserved instances -72%, 1 or 3 years, Commit to instance attributes (type, region, tenancy, os)  
-Saving plans -72%, 1 or 3 years, Commit to amount per hour, Above is on demand  
+Reserved instances -72%, 1 or 3 years, Commit to instance type, region, tenancy, os  
 Spot instances -90%, Bid on unused instances, Lost if max price below spot  
 Dedicated Host, Access to physical server, Compliance or server bound licences, Most expensive  
 Dedicated Instances, Instances on hardware not shared with other accounts  
@@ -304,3 +303,6 @@ SCP Hierarchy, Inheritance from OU to account, Denies cannot be allowed deeper
 Control Tower, Automatic organizations, Landing zone with master, log and audit accounts, SSO to all  
 Controls (guardrails), Automatic SCP, Report of non-compliant OUs  
 Pricing models, Pay as you go, Save when you reserve, Pay less by using more, Pay less as AWS grows  
+EC2 Savings plans -72%, 1 or 3 years, Commit to amount per hour and family (T1, M5), Above is on demand  
+Compute Savings Plan -66%, Commit to amount per hour (EC2, Fargate, Lambda), Regardless region, family or size  
+Machine Learning Savings Plan, Services like SageMaker
