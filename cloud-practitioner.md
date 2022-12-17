@@ -307,7 +307,7 @@ EC2 Savings plans -72%, 1 or 3 years, Commit to amount per hour and family (T1, 
 Compute Savings Plan -66%, Commit to amount per hour (EC2, Fargate, Lambda), Regardless region, family or size  
 Machine Learning Savings Plan, Services like SageMaker  
 Pricing Calculator, Estimate solution costs, Input services and pricing strategy  
-Billing Dashboard, Cost for current month by service, Free tier usage  
+Billing Dashboard, Costs for current month by service, Free tier usage  
 Cost Explorer, Costs over time by resource, Savings plan recommendation, 12 months forecast  
 Cost and Usage Report, Most comprehensive information (CSV file), Services, IAM users, Hourly  
 Resource Groups, Service to assign tags to resources and search by tags  
