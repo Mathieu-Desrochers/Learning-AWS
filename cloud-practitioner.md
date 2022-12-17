@@ -92,6 +92,7 @@ Bucket, Globally unique name, Scoped to region
 Object with key (my-object.txt), Can simulate folders with prefix (my-folder/my-object.txt)   
 Value (max 5TB, multi-part upload 5GB), Metadata (key / value pairs)  
 URL (https://bucket.s3.ca-central-1.amazonaws.com/object.txt), Can be presigned  
+Pay per number / size of objects, number of requests, data transfered out  
 Security with IAM policies, IAM roles, Bucket policies (principal * for public access)  
 Bucket policies can allow cross account access, ACL at bucket or object level  
 Block all public access, Safety at bucket or account level, Overrules everything  
@@ -99,7 +100,6 @@ Static website hosting, Index document, Error document, s3-website.ca-central-1.
 Versioning with string IDs (xqkPZ...4P), Deleting adds delete marker version  
 Replication, Cross-region replicaton (CRR), Same-region replication (SRR)  
 Rule with source, Filter (all), Destination, Must enable versioning, Is asynchronous  
-Pay per number / size of objects, number of requests, data transfered out  
 Storage classes, Per object, Anything but Standard has retrieval fee  
 Standard Infrequent Access (IA), Instant retrieval  
 One-Zone Infrequent Access (IA), Instant retrieval, Cheaper, Less availability  
