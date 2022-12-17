@@ -284,7 +284,11 @@ Rekognition, Find people, text or objects in images or videos
 Transcribe, Speech to text, Automatic language identification, Can automatically strip PII  
 Polly, Text to speech, Neural (most human like) or standard, Voice selection  
 Translate, Natural and accurate text translation  
-Lex, Tecnhology behind Alexa, Speech recognition and language understanding  
+Lex, Like Alexa, Speech recognition and language understanding  
 Connect, Virtual contact center, Bots accepting phone calls  
 Comprehend, Natural Language Processing (NLP), Finds language, key phrases, sentiment, topic  
-SameMaker, 
+SageMaker, Managed service to build ML models, Label data, Build model, Train, Apply  
+Forecast, Input historical time-series data, Builds model, Makes prediction  
+Kendra, Like google, Document search service, Indexes, Answers questions, Incremental learning  
+Personalize, Like Amazon.com, Real-time personalized recommendations  
+Textract, Extract text, handwriting, data from scanned documents (OCR)  
