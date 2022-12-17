@@ -85,7 +85,7 @@ Has launch template (EC2 instances configuration), Scaling policy
 Dynamic: Simple / Step (when CPU > 70% add 2), Target tracking (keep average CPU at 40%)  
 Scheduled, Predictive (machine learning to detect pattern, provision in advance)  
 
-## S3 - Object Storage
+## S3 - Simple Storage Service
 Backups, Static website, Software delivery, Media hosting, Data lakes  
 Bucket, Globally unique name, Scoped to region  
 Object with key (my-object.txt), Can simulate folders with prefix (my-folder/my-object.txt)   
@@ -306,3 +306,10 @@ Pricing models, Pay as you go, Save when you reserve, Pay less by using more, Pa
 EC2 Savings plans -72%, 1 or 3 years, Commit to amount per hour and family (T1, M5), Above is on demand  
 Compute Savings Plan -66%, Commit to amount per hour (EC2, Fargate, Lambda), Regardless region, family or size  
 Machine Learning Savings Plan, Services like SageMaker
+Cost Optimizer, Recommend optimal AWS resources based on workloads (EC2, ASG, EBS, Lambda)  
+Pricing Calculator, Estimate solution costs, Input services and pricing strategy  
+Billing Dashboard, Cost for current month by service, Free tier usage  
+Cost Explorer, Costs over time by resource, Savings plan recommendation, 12 months forecast  
+Cost and Usage Report, Most comprehensive information (CSV file), Services, IAM users, Hourly  
+Resource Groups, Service to assign tags to resources and search by tags  
+Cost Allocation Tags, Use tags for filtering and grouping in Cost Explorer  
