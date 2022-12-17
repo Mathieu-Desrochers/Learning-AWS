@@ -311,7 +311,7 @@ Billing Dashboard, Costs for current month by service, Free tier usage
 Cost Explorer, Costs over time by resource, Savings plan recommendation, 12 months forecast  
 Cost and Usage Report, Most comprehensive information (CSV file), Services, IAM users, Hourly  
 Cost Allocation Tags, Use tags for filtering and grouping in Cost Explorer  
-Cost Optimizer, Recommend optimal AWS resources based on workloads (EC2, ASG, EBS, Lambda)  
+Compute Optimizer, Recommend optimal AWS resources based on workloads (EC2, ASG, EBS, Lambda)  
 Budgets, With type (cost, usage, reservation), Amount, Filters, Alerts (actual, forecasted, treshold %)  
 Trusted Advisor, High level account checks, Core free for Basic and Developer support plans  
 5 categories (cost optimization, performance, security, fault tolerance, service limits)  
