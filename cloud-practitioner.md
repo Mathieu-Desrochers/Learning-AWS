@@ -126,7 +126,7 @@ NoSQL, Flexible schema, Key-Value, Document, Graph, In-Memory, Search, JSON
 RDS - Relational Database Service, Postgres, MySql, MariaDB, Oracle, SQL Server  
 Aurora, AWS proprietary Postgres or MySql (3x or 5x faster), Auto-grow (10GB), Cost more (20%)  
 Read replicas (up to 5, can be across regions), Failover (replication to one other AZ, passive)  
-Pay per hour, engine, size and memory class, On demand or reserved (1 - 3 years)  
+Pay per hour, EC2 instance type, GBs / month, On demand or reserved (1 - 3 years)  
 ElastiCache, Redis or Memcached, In-memory, High performance  
 DynamoDB, Key-Value, High availability (3 AZ), Serverless (no EC2 instance type selection)  
 Tables with primary key (partition key + sort key), Attributes (columns, per item)  
