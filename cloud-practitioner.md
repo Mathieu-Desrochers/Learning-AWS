@@ -322,3 +322,5 @@ Basic, Developer 29$ (business hours email support, primary contact, 24h/12h)
 Business 100$ (production, 24/7 phone / email / chat support, business support engineers, 24h/12h/4h/1h)  
 Enterprise On-Ramp 5500$ (critical, technical account managers, concierge support team, 24h/12h/4h/1h/30m)  
 Enterpsise 15000$ (mission critical, designated technical account manager, 24h/12h/4h/1h/15m)  
+
+## Advanced Identity
