@@ -294,3 +294,7 @@ Personalize, Like Amazon.com, Real-time personalized recommendations
 Textract, Extract text, handwriting, data from scanned documents (OCR)  
 
 ## Account Managenemt, Billing and Support
+Organizations, Manage multiple accounts, Consolidated billing, Volume discounts, Reserved EC2  
+Organization Units (OU), Root contains master account, Can be nested, Contains child accounts  
+Service Control Policies (SCP), Applies to OU or account (but not master), Same syntax IAM policies  
+SCP Hierarchy, Inheritance from OU to account, Denies cannot be allowed deeper  
