@@ -292,3 +292,5 @@ Forecast, Input historical time-series data, Builds model, Makes prediction
 Kendra, Like google, Document search service, Indexes, Answers questions, Incremental learning  
 Personalize, Like Amazon.com, Real-time personalized recommendations  
 Textract, Extract text, handwriting, data from scanned documents (OCR)  
+
+## Account Managenemt, Billing and Support
