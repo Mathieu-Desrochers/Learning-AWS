@@ -310,6 +310,5 @@ Pricing Calculator, Estimate solution costs, Input services and pricing strategy
 Billing Dashboard, Costs for current month by service, Free tier usage  
 Cost Explorer, Costs over time by resource, Savings plan recommendation, 12 months forecast  
 Cost and Usage Report, Most comprehensive information (CSV file), Services, IAM users, Hourly  
-Resource Groups, Service to assign tags to resources and search by tags  
 Cost Allocation Tags, Use tags for filtering and grouping in Cost Explorer  
 Cost Optimizer, Recommend optimal AWS resources based on workloads (EC2, ASG, EBS, Lambda)  
