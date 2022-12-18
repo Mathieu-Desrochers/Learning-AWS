@@ -330,3 +330,13 @@ Cognito, Manage users for web or mobile application, Login with 3rd party site (
 Directory Services, Manage users with Microsoft Active Directory (trust, proxy or simple)  
 IAM Identity Center, SSO to multiple AWS accounts or applications (Salesforce, Office 365)  
 Login portal, Links to accessible sites, Built-in identity store or 3rd party (AD, OneLogin, Okta)  
+
+## Other Services
+WorkSpaces, Desktop as a Service (DaaS), Remote access to complete Windows or Linux desktop  
+AppStream 2.0, Remote access to desktop application through web browser  
+Sumerian, 3D models and animations in web browser, Also Virtual and Augmented Reality (VR, AR)  
+IoT Core, Connect billion of devices to AWS cloud, Gather, process, analyse and act on data  
+Elastic Transcoder, Convert media files to formats required by playback devices  
+AppSync, Store and sync data in real-time, Web / mobile applications, GraphQL  
+Amplify, Build and host full-stack web / mobile applications, Studio and runtime AWS services  
+Device Farm, 
