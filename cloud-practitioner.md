@@ -340,7 +340,7 @@ Elastic Transcoder, Convert media files to formats required by playback devices
 AppSync, Store and sync data in real-time, Web / mobile applications, GraphQL  
 Amplify, Build and host full-stack web / mobile applications, Studio and runtime AWS services  
 Device Farm, Test applications on different devices, Real hardware not emulators  
-AWS Backup, Central backup automation, Plan with frequency, Retention, Services, Destination S3 bucket  
+AWS Backup, Central backup automation, With source AWS services, Retention, Frequency, Destination bucket  
 Disaster recovery strategies, Backup and restore (cheap), Pilot Light (minimal setup, ready to scale)  
 Warm Standby (full application, minimum size), Multi-Site / Hotsite (full application, full size)  
 EDR - Elastic Disaster Recovery, Block level replication of servers to failover environment  
