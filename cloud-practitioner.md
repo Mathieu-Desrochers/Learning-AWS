@@ -334,20 +334,20 @@ Login portal, Links to accessible sites, Built-in identity store or 3rd party (A
 ## Other Services
 WorkSpaces, Desktop as a Service (DaaS), Remote access to complete Windows or Linux desktop  
 AppStream 2.0, Remote access to desktop application through web browser  
-Sumerian, 3D models and animations in web browser, Also Virtual and Augmented Reality (VR, AR)  
-IoT Core, Connect billion of devices to AWS cloud, Gather, process, analyse and act on data  
+Sumerian, 3D models and animations in web browser, Also Virtual and Augmented Reality  
+IoT Core, Connect devices to AWS cloud, Gather, process, analyse and act on data  
 Elastic Transcoder, Convert media files to formats required by playback devices  
 AppSync, Store and sync data in real-time, Web / mobile applications, GraphQL  
 Amplify, Build and host full-stack web / mobile applications, Studio and runtime AWS services  
 Device Farm, Test applications on different devices, Real hardware not emulators  
-AWS Backup, Central backup automation, With source AWS services, Retention, Frequency, Destination bucket  
+AWS Backup, Central backup automation, With source AWS services, Retention, Frequency  
 Disaster recovery strategies, Backup and restore (cheap), Pilot Light (minimal setup, ready to scale)  
 Warm Standby (full application, minimum size), Multi-Site / Hotsite (full application, full size)  
 EDR - Elastic Disaster Recovery, Block level replication of servers to failover environment  
 DataSync, Synchronize data to S3, EFS, FSx, With schedule, Incremental replication (rsync)  
-Application Discovery Service, Scan on-premise to discover servers and dependencies, View in Migration Hub  
+Application Discovery Service, Scan on-premise to discover servers and dependencies
 Application Migration Service, Rehost on-premise to AWS (lift and shift)  
-FIS - Fault Injection Simulator, Chaos Engineering (spike CPU, RAM), Observe system behavior  
-Step Functions, Visual workflow to orchestrate Lambdas, EC2, ECS, SQS, Allows human approval steps  
+FIS - Fault Injection Simulator, Chaos Engineering (spike CPU, RAM), Observe behavior  
+Step Functions, Visual workflow to orchestrate Lambdas, EC2, ECS, SQS, Human approval steps  
 Ground Station, Managed service for your satellite operation, yeah  
-Pinpoint, Marketing communications (SMS, email, voice), With campains, segments and personalizations  
+Pinpoint, Marketing communications (SMS, email, voice)
