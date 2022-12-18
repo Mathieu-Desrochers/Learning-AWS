@@ -345,3 +345,9 @@ Disaster recovery strategies, Backup and restore (cheap), Pilot Light (minimal s
 Warm Standby (full application, minimum size), Multi-Site / Hotsite (full application, full size)  
 EDR - Elastic Disaster Recovery, Block level replication of servers to failover environment  
 DataSync, Synchronize data to S3, EFS, FSx, With schedule, Incremental replication (rsync)  
+Application Discovery Service, Scan on-premise to discover servers and dependencies, View in Migration Hub  
+Application Migration Service, Rehost on-premise to AWS (lift and shift)  
+FIS - Fault Injection Simulator, Chaos Engineering (spike CPU, RAM), Observe system behavior  
+Step Functions, Visual workflow to orchestrate Lambdas, EC2, ECS, SQS, Allows human approval steps  
+Ground Station, Managed service for your satellite operation, yeah  
+Pinpoint, Marketing communications (SMS, email, voice), Segment and personalize, Out / inbound  
