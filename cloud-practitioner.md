@@ -325,6 +325,8 @@ Enterpsise 15000$ (mission critical, designated technical account manager, 24h/1
 
 ## Advanced Identity
 STS - Security Token Service, Creates temporary limited-privileges tokens (like access keys)  
-Used by users or resources for leveraging IAM roles (same or cross account) or identity federation 
+Used by users or resources for leveraging IAM roles (same or cross account) or identity federation  
 Cognito, Manage users for web or mobile application, Login with 3rd party site (facebook, google)  
-Directory Services, 
+Directory Services, Manage users with Microsoft Active Directory (trust, proxy or simple)  
+IAM Identity Center, SSO to multiple AWS accounts or applications (Salesforce, Office 365)  
+Login portal, Links to accessible sites, Built-in identity store or 3rd party (AD, OneLogin, Okta)  
