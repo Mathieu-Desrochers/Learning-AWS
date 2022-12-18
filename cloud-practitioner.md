@@ -350,4 +350,4 @@ Application Migration Service, Rehost on-premise to AWS (lift and shift)
 FIS - Fault Injection Simulator, Chaos Engineering (spike CPU, RAM), Observe system behavior  
 Step Functions, Visual workflow to orchestrate Lambdas, EC2, ECS, SQS, Allows human approval steps  
 Ground Station, Managed service for your satellite operation, yeah  
-Pinpoint, Marketing communications (SMS, email, voice), Segment and personalize, Out / inbound  
+Pinpoint, Marketing communications (SMS, email, voice), With campains, segments and personalizations  
