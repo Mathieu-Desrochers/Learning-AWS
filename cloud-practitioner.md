@@ -351,3 +351,17 @@ FIS - Fault Injection Simulator, Chaos Engineering (spike CPU, RAM), Observe beh
 Step Functions, Visual workflow to orchestrate Lambdas, EC2, ECS, SQS, Human approval steps  
 Ground Station, Managed service for your satellite operation, yeah  
 Pinpoint, Marketing communications (SMS, email, voice)
+
+## Well-Architected Framework
+Scalability, Disposable resources, Automation, Loose coupling, Services not servers  
+Pillar 1, Operational Excellence, Operations as code, Annotate documentation  
+Frequent small reversible changes, Refine procedures, Anticipate failures  
+Pillar 2, Security, Identity foundation, Tracibility, All layers, Automate best practices  
+Protect data (transit, rest), Keep people away from data, Prepare for events  
+Pillar 3, Reliability, Recovery procedures, Automatic recovery  
+Horizontal scaling, Stop guessing capacity, Auto-scaling, Automate changes  
+Pillar 4, Performance Efficiency, Advanced technologies, Go global in minutes  
+Serverless, Experiment often, Mechanical sympathy (know AWS services)  
+Pillar 5, Cost Optimization, Consumption mode (pay only what we use), Measure efficiency  
+Stop paying data center operations, Analyze expenditures, Use managed services  
+Pillar 6, Sustainability, 
