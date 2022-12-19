@@ -318,8 +318,8 @@ Trusted Advisor, High level account checks, Core free for Basic and Developer su
 7 core checks (S3, security groups, IAM not root, MFA on root, EBS snapshots, RDS snapshots, service limits)  
 Support plans, Response times, General guidance, System impaired  
 Production system impaired, Production system down, Business critical system down  
-Basic, Developer 29$ (business hours email support, primary contact, 24h/12h)  
-Business 100$ (production, 24/7 phone / email / chat support, business support engineers, 24h/12h/4h/1h)  
+Basic, Developer 29$ (business hours email support, support associates, 24h/12h)  
+Business 100$ (production, 24/7 phone / email / chat support, support engineers, 24h/12h/4h/1h)  
 Enterprise On-Ramp 5500$ (critical, technical account managers, concierge support team, 24h/12h/4h/1h/30m)  
 Enterpsise 15000$ (mission critical, designated technical account manager, 24h/12h/4h/1h/15m)  
 
@@ -357,11 +357,22 @@ Scalability, Disposable resources, Automation, Loose coupling, Services not serv
 Pillar 1, Operational Excellence, Operations as code, Annotate documentation  
 Frequent small reversible changes, Refine procedures, Anticipate failures  
 Pillar 2, Security, Identity foundation, Tracibility, All layers, Automate best practices  
-Protect data (transit, rest), Keep people away from data, Prepare for events  
+Protect data (in transit, at rest), Keep people away from data, Prepare for events  
 Pillar 3, Reliability, Recovery procedures, Automatic recovery  
 Horizontal scaling, Stop guessing capacity, Auto-scaling, Automate changes  
-Pillar 4, Performance Efficiency, Advanced technologies, Go global in minutes  
+Pillar 4, Performance Efficiency, Use advanced technologies, Go global in minutes  
 Serverless, Experiment often, Mechanical sympathy (know AWS services)  
 Pillar 5, Cost Optimization, Consumption mode (pay only what we use), Measure efficiency  
 Stop paying data center operations, Analyze expenditures, Use managed services  
-Pillar 6, Sustainability, 
+Pillar 6, Sustainability, Understand impact, Establish goals, Maximize utilization  
+Adopt new more efficient hardware, Use managed services, Reduce downstream impact  
+Well-Architected Tool, Fill in questionnaire, Get improvement plan  
+Right Sizing, Scaling up is easy so start small, Before migration, Continuously  
+
+## Ecosystem
+AWS blogs, forums, whitepapers, quick starts (gold stardard templates)  
+AWS support, marketplace, training, AWS academy (universities)  
+Professional Services, Partner Network (technology, consulting, training)  
+Knowledge Center, Most frequent questions and answers  
+AWS IQ, Freelance platform for AWS experts, Contract management, Billing  
+AWS re:Post, Stackoverflow for AWS related questions  
