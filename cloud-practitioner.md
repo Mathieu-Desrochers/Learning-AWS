@@ -303,8 +303,8 @@ SCP Hierarchy, Inheritance from OU to account, Denies cannot be allowed deeper
 Control Tower, Automatic organizations, Landing zone with master, log and audit accounts, SSO to all  
 Controls (guardrails), Automatic SCP, Report of non-compliant OUs  
 Pricing models, Pay as you go, Save when you reserve, Pay less by using more, Pay less as AWS grows  
-EC2 Savings plans -72%, 1 or 3 years, Commit to amount per hour and family (T1, M5), Above is on demand  
-Compute Savings Plan -66%, Commit to amount per hour (EC2, Fargate, Lambda), Regardless region, family or size  
+EC2 Savings plans -72%, 1 or 3 years, Commit amount per hour and family (T1, M5), Above is on demand  
+Compute Savings Plan -66%, Commit amount per hour (EC2, Fargate, Lambda), Regardless region, family, size  
 Machine Learning Savings Plan, Services like SageMaker  
 Pricing Calculator, Estimate solution costs, Input services and pricing strategy  
 Billing Dashboard, Costs for current month by service, Free tier usage  
