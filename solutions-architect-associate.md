@@ -29,8 +29,8 @@ Availability, Standard (multi AZ), One Zone, EFS One-Zone IA (-90%)
 Mount target per AZ, With security group, efs-utils in EC2 (/mnt/efs/fs1)  
 
 ## High Availability and Scalability: ELB & ASG
-ALB - Application Load Balancer, Fixed hostname (xxx.region.elb.amazonaws.com)  
+ALB - Application Load Balancer, With hostname (xxx.region.elb.amazonaws.com)  
 Target groups (EC2s, ECS tasks, Lambdas, Private IPs)  
 Routing tables (based on hostname, URL path, query string, headers)  
 Used to selects target group, Redirections (HTTP to HTTPS)  
-Client IP known though X-Forwarded-(For / Port / Proto) headers  
+X-Forwarded-For / Port / Proto headers  
