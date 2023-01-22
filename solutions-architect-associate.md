@@ -25,3 +25,4 @@ EBS Encryption, At rest on disk, In flight to EC2, In snapshots
 Uses KMS and AES-256, Can encrypt unencrypted volume through snapshot  
 EFS, Performance modes, General purpose (low latency), Max I/O (high throughput)  
 Throughput modes, Bursting (linked to size, burst 100 MB/s), Provisioned  
+Availability, Standard (multi AZ), One Zone, EFS One-Zone IA (-90%)  
