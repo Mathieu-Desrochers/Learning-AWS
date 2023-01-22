@@ -26,3 +26,4 @@ Uses KMS and AES-256, Can encrypt unencrypted volume through snapshot
 EFS, Performance mode, General purpose (low latency), Max I/O (high throughput)  
 Throughput mode, Bursting (MB/s linked to size, burst 100), Provisioned  
 Availability, Standard (multi AZ), One Zone, EFS One-Zone IA (-90%)  
+Mount target per AZ, With security group, Using efs-utils in EC2  
