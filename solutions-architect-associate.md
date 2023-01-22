@@ -34,3 +34,4 @@ Public or private, Redirections (such as HTTP to HTTPS)
 Target groups (EC2s, ECS tasks, Lambdas, Private IPs)  
 Routing tables (based on hostname, URL path, query string, headers)  
 Used to selects target group, X-Forwarded-For / Port / Proto headers  
+Chain ALB security group to target inbound rules  
