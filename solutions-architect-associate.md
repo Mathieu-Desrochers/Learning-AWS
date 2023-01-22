@@ -30,8 +30,9 @@ Mount target per AZ, With security group, efs-utils in EC2 (/mnt/efs/fs1)
 
 ## High Availability and Scalability: ELB & ASG
 ALB - Application Load Balancer, With hostname (xxx.region.elb.amazonaws.com)  
-Public or private, Redirections (such as HTTP to HTTPS)  
+Scheme (internet-facing, internal), Redirections (such as HTTP to HTTPS)  
 Target groups (EC2s, ECS tasks, Lambdas, Private IPs)  
-Routing tables (based on hostname, URL path, query string, headers)  
-Used to selects target group, X-Forwarded-For / Port / Proto headers  
+Listeners with protocol and port, Rules to select target group  
+Based on hostname, URL path, query string, headers  
 Chain ALB security group to target inbound rules  
+X-Forwarded-For / Port / Proto headers  
