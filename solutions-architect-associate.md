@@ -2,7 +2,7 @@
 Spot request with max price, Number of instances, Launch template, AZ  
 Type (one-time, persistent), Valid from / to, From EC2 launch wizard  
 Spot fleet with target capacity (number of instances, vCPUs, RAM)  
-Instance requirements (specific types, min / max vCPUs and RAM)  
+Instance requirements (specific types, min / max vCPUs, RAM)  
 Allocation strategy (lowest price, diversified, capacity optimized)  
 Spot or on-demand instances  
 
