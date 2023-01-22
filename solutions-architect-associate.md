@@ -23,6 +23,6 @@ io2 Block Express (sub milliseconds, 256k IOPS)
 EBS Multi-Attach, io1 / io2 only, Max 16 EC2s, Same AZ  
 EBS Encryption, At rest on disk, In flight to EC2, In snapshots  
 Uses KMS and AES-256, Can encrypt unencrypted volume through snapshot  
-EFS, Performance modes, General purpose (low latency), Max I/O (high throughput)  
-Throughput modes, Bursting (MB/s linked to size, burst 100), Provisioned  
+EFS, Performance mode, General purpose (low latency), Max I/O (high throughput)  
+Throughput mode, Bursting (MB/s linked to size, burst 100), Provisioned  
 Availability, Standard (multi AZ), One Zone, EFS One-Zone IA (-90%)  
