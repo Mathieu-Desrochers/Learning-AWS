@@ -16,10 +16,12 @@ EC2 Hibernate, RAM preserved on root disk when stopped (EBS, encrypted)
 
 ## EC2 Instance Storage
 Standard HDD, st1 (throughput), sc1 (cold), Cannot be boot volumes  
-General Purpose SSD, gp2 (size and IOPS linked, burst 3k, max 16k)  
-gp3 (can increase IOPS and throughput indenpendently, max 16k / 1 GB/s)  
+General Purpose SSD, gp2 (IOPS linked to size, burst 3k, max 16k)  
+gp3 (can set IOPS and throughput indenpendently, max 16k / 1 GB/s)  
 Provisioned IOPS, io1 / io2 (sustained IOPS, max 32k or 64k for nitro EC2)  
 io2 Block Express (sub milliseconds, 256k IOPS)  
 EBS Multi-Attach, io1 / io2 only, Max 16 EC2s, Same AZ  
 EBS Encryption, At rest on disk, In flight to EC2, In snapshots  
 Uses KMS and AES-256, Can encrypt unencrypted volume through snapshot  
+EFS, Performance modes, General purpose (low latency), Max I/O (high throughput)  
+Throughput modes, Bursting (linked to size, burst 100 MB/s), Provisioned  
