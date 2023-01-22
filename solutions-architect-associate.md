@@ -39,4 +39,4 @@ Chain ALB security group to target inbound rules
 X-Forwarded-For / Port / Proto headers  
 NLB - Network Load Balancer with static IP (one per AZ)  
 Target groups (EC2s, Private IPs), Health checks (TPC, HTTP, HTTPS)  
-No security group, Targets inbound rules must allow  
+No security group, Target inbound rules must allow  
