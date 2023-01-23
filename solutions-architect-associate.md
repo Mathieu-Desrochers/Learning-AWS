@@ -50,5 +50,5 @@ Without traffic is spread across AZ, then across targets in AZ
 Enabled by default for ALB with no cross AZ network charges  
 SSL / TLS certificates, Supports multiple certificates (ALB, NLB)  
 Uses Server Name Identification (SNI, hostname in SSL handshake)  
-Deregistration delay (Connection draining)  
+Deregistration delay (Connection draining), Default 300 secs  
 Time to complete in flight requests before target is removed  
