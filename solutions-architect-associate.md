@@ -1,8 +1,9 @@
 ## EC2 - Elastic Cloud Compute
 Spot request with max price, Number of instances  
-Launch template, Type (one-time, persistent), Valid from / to dates  
+Launch template (AMI, instance type, key pair, network, storage)  
+Type (one-time, persistent), Valid from / to dates  
 Spot fleet with target capacity (number of instances, vCPUs, RAM)  
-Instance requirements (specific types, min / max vCPUs, RAM)  
+Instance type requirements (specific types, min / max vCPUs, RAM)  
 Allocation strategy (lowest price, diversified, capacity optimized)  
 Spot or on-demand instances  
 
