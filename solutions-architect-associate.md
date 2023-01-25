@@ -53,6 +53,6 @@ SSL / TLS certificates, Supports multiple certificates (ALB, NLB)
 Uses Server Name Identification (SNI, hostname in SSL handshake)  
 Deregistration delay (Connection draining), Default 300 secs  
 Time to complete in flight requests before target is removed  
-ASG - Auto Scaling Group, Uses Cloudwatch alarms  
+ASG - Auto Scaling Group, Uses CloudWatch alarms with actions  
 Good metrics (CPU, RequestCountPerTarget, Network in / out)  
 Cooldown period after scaling to stabilize metrics, Default 300 secs  
