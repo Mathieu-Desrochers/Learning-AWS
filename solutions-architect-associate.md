@@ -56,3 +56,14 @@ Time to complete in flight requests before target is removed
 ASG - Auto Scaling Group, Uses CloudWatch alarms with actions  
 Based on metrics (CPU, RequestCountPerTarget, Network in / out)  
 Cooldown period after scaling to stabilize metrics, Default 300 secs  
+
+## RDS + Aurora + ElastiCache
+Storage Auto Scaling - Less 10% free, For 5 minutes  
+6 hours since last scaling, With maximum storage threshold  
+Read replicas - Async, Can be promoted to own DB, Application must know replicas  
+Multi AZ - Sync, DNS name with automatic failover, Application must retry connecting  
+Cross AZ replication traffic is free, Single AZ to Multi AZ with no downtime  
+Database with Authentication (password, IAM, Kerberos)  
+DB parameter group, Option group (engine settings)  
+Export logs to CloudWatch (audit, error, general, slow query)  
+Maintenance window, Delete protection  
