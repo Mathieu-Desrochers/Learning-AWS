@@ -67,3 +67,4 @@ Database with Authentication (password, IAM, Kerberos)
 DB parameter group, Option group (engine settings)  
 Export logs to CloudWatch (audit, error, general, slow query)  
 Maintenance window, Delete protection  
+RDS Custom - Access to underlying EC2 instance (SQL Server, Oracle)  
